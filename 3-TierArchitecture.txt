@@ -1,0 +1,2629 @@
+I'm an enthusiastic software engineer and consultant interested in many fields including J2EE, weblogic, SOA, OSB,
+
+http://middlewareadmin-pavan.blogspot.in/2013/06/weblogic-material.html
+
+
+JDBC Overview path:
+
+https://docs.oracle.com/cd/E13222_01/wls/docs81/jdbc/intro.html
+
+
+===============================================================================
+www.arvasoftware.com/webmail
+
+User/Pwd : harikrishna.p@arvasoftware.com/arva@12345
+
+==============================================================================
+
+username  :aimosbwl19_01
+pwd       :aimosbwl19_01
+
+PAN Card : CBZPP5763R
+
+========================================================================================================================
+Working as a Associate Consultant  in Arva software Pvt Ltd  from Aug 12 to Till Date
+
+Client
+
+
+
+ SFR  Sep 2012 to Aug 2013 {{_  Statoil Fuel & Retail is a Norwegian energy retail company in Scandinavia, Poland  _ }}
+ 
+ Apoteket  0ct 2013 to Dec 2015 {{_  the national pharmaceuticals retailing former monopoly in Sweden  _ }}
+ 
+ NETS  Jan 2016 to Till Date {{_  Nordic provider of payments, cards and information services  _ }}
+ 
+ of or relating to medicinal drugs, or their preparation, use, or sale.
+ 
+===========================================================================================================================
+ARVA SOFTWARE PRIVATE LIMITED
+
+Ground Floor, Beech, E-1 Manyata Embassy Business Park, Outer Ring Road, Nagawara, Bengaluru, Karnataka 560045
+arvasoftware.com
+
+Company address:
+NO-429, 2ND FLOOR,8TH CROSS,
+R.T. NAGAR, 2ND BLOCK, NEAR BDA COMPLEX
+Bangalore
+Karnataka
+INDIA
+560032
+
+Website/mail:
+contact@raisesolutions.com
+
+=======================================================================================================
+Please Go Through my Attachments..
+
+Hi,
+   
+  This is harikrishna,Having 4+ yrs of Experience in FWM Administration(Weblogic Admin,SOA Admin,OSB Admin),
+Currently working at mumbai(mindspace).
+
+Professional
+
+Full Name :Harikrishna
+Current CTC:4.3L PA
+Total Exp: 4.2 yr 
+Relevant exp: 4.2Yr
+Present Company:Arva Software Pvt.Ltd
+Offical mail id:harikrishna.p@arvasoftware.com
+Current Location:Navi-Mumbai
+Notice Period:15days
+Any
+
+Willing to travel to Malad: YES
+Willing to work 24*7: YES
+
+Thanks & Regards
+Harikrishna.P
+
+
+Wls              9.x/10.x  2013    1 Year(s) 01 Month(s)
+				  11g      2015    2 Year(s) 03 Month(s)
+		
+ORACLE SOA SUITE   11g     2016    2 Year(s) 04 Month(s)
+Oracle OSB	       11g     2016    1 Year(s) 00 Month(s)
+		
+		
+		
+=============================================================================================		
+Once i come to picture i strengthen my roots(becoming stronger/the act of increasing the strength of something/bulid up/healthly make up everything) 
+
+
+well versed = experience in / skilled well
+
+
+ weblogic
+ Password123
+ 
+ ===============
+ 96765632522onE
+ ===============
+ 
+In 1990's we've  2-Tier Architecture
+
+Front End         -   Back End
+
+Tier-1            Tier-2
+
+(One Machine)      (DataBase)
+
+  Tier-1:
+
+  It contains all software's,All Application,all Browsers.(i.e In one machine we'll install all information)
+
+  DisAdavantage:
+
+  -> s/w version upgrade
+
+  -> All user 've permission, By chance (All users)they'll do anything(i.e They could modify Data/information ,so it'll effect to DataBase)
+
+  ->All Users able to SEE "Business Logic" So Hackers may chance to get Business logic and modified BL
+ 
+  -> Hackers and so many problems..
+
+
+After 1990's new concept came into the Picture I.e. 3-Tier Architecture
+
+
+Tier-1           Tier-2                     Tier-3
+
+Front-End        Middle-ware               Back-End
+
+Client         Application Server           DB
+
+
+ Web Server                    Application Server        		DB
+
+ Apache							Web logic Server				IBM DB2
+ IBM Http Server(IHS)           IBM Web sphere                  Oracle DB
+ IIS(Internet info Server)   	JBOSS							Sybase                         
+ Sun One			            Apache							SQL
+Lotus Domino                    Tomcat							My SQL
+ I-planet                                                       Derby
+ .                                                           	Informix
+
+
+   Web Server:
+    web servers serves only static pages/web pages (i.e. static HTML,IMAGES),which we put on web server file system. Nothing Dynamic is here
+	.->No server side coding
+	.->No Database connection
+    .->No generation of html
+
+	These web servers are capable of Generating Dynamic Content USING Plug-in 's 
+	 
+	 For ex.   IIS  using .NET  Plug-in then we can write Server side web pages(i.e ASP web pages,VB web pages)then our clients get (Dynamic web pages).
+	
+	
+  Application Server 
+    
+  It mainly contains WEB container & EJB container
+  
+  Application Server provides services(Transaction,Security) to our Applications which we design applications by using server side programming language (SOA,OSB etc..)deploy on Application Server
+  
+  These all services out of box Applications.
+  Simply means we can configure these services to our application using configuration information these server's provides
+  
+  ========================================================
+  
+  pack -domain=D:\soa\FMW\Oracle\middleware\user_projects\domains\base_domain1 -template=D:\soa\FMW\Oracle\middleware\user_projects\domains\FMW_Cl.jar -template_name=FMW_clone2
+  
+  
+        =========================================
+ 
+ pack.cmd/pack.sh command persisted location
+  
+  1) D:\soa\FMW\Oracle\middleware\wlserver_10.3\common\bin
+  2) D:\soa\FMW\Oracle\middleware\oracle_common\common\bin
+  3) D:\soa\FMW\Oracle\middleware\Oracle_SOA1\common\bin
+  
+  D:\soa\FMW\Oracle\middleware\wlserver_10.3\common\bin>pack.cmd -help
+Usage: run pack.cmd or pack.sh with the following parameters:
+-domain=<full path to a domain>
+-template=<full path to a template jar file>
+-template_name=<descriptive template name. Use quotes when needed.>
+[-template_author=<author. Use quotes when needed.>]
+[-template_desc=<description. Use quotes when needed.>]
+[-managed=<whether the generated template is for managed servers on remote machines. "true" or "false". Default to "false".>]
+[-log=<log file>]
+[-log_priority=<log priority. Use a log4j priority string.>]	
+  
+  
+  ========================================================
+Commands for cmd
+
+make folder(s)      md 1 or  md 1| md 2 |md 3
+delete folder(s)    rd 1 or  rd 1| rd 2 |rd 3
+open foleder(s)     explorer 
+
+ task process cms
+ 
+ .                     taskkill /?  (help
+notepad delete(all)   taskkill /im notepad.exe  (here we ll give     .exe    instead of .txt)
+
+firefox delete        taskkill /im firefox.exe
+cmd  delete       taskkill/im cmd.exe    
+                 import os
+
+os.system('taskkill /im chrome.exe')
+os.system('taskkill /im powerpnt.exe')
+os.system('taskkill /im outlook.exe')
+os.system('taskkill /im winword.exe')
+os.system('taskkill /im excel.exe')
+
+
+WIFI PWD FIND OUT PROCESS
+
+c:Windows\system32>wmic
+                   quit
+				   netsh wlan show profiles 
+				   netsh wlan show profiles venkata
+  .				   netsh wlan show profiles venkata key=clear							
+  
+ Giving a security to a folder
+
+create a folder in any drive  ex : F:\hari
+
+In cmd
+ cacls hari /p everyone:n    (appled here)
+ cacls hari /p everyone:f     (To do free)
+   
+====================================================================================
+
+  
+  startWeblogic
+  
+   --> Server state changed to STARTING
+        (Initializing self-tuning thread pool)
+   --> Server state changed to STANDBY
+   --> Server state changed to STARTING
+   --> Server state changed to ADMIN
+   --> Server state changed to RESUMING
+   --> Server state changed to RUNNING
+   --> Server state changed to RUNNING mode
+   
+ Server state changed to STARTING
+  Initializing self-tuning thread pool,
+  Server log file generated and open for all server log events will be written into this file,
+  security initializing using security realm myrealm
+  
+  
+ --> Server state changed to ADMIN
+ --> Server state changed to RESUMING
+ 
+ Hostname "hari-pc", maps to multiple IP Address
+ 
+  192.168.35.1:7001
+  192.168.11.1:7001
+  127.0.0.1:7001
+  
+ ======================================================================================================================= 
+    venkata106
+ =======================================================================================================================
+
+ 
+ 
+ 
+ ==============================================================================================================
+ 
+ Managed Servers 've same listen Port number (i.e. listen port = 7001 & 7001) so They got conflict. 
+
+<Aug 16, 2016 11:43:15 AM EDT> <Info> <Management> <BEA-141107> <Version: WebLogic Server 10.3.6.0  Tue Nov 15 08:52:36 PST 2011 1441050 >
+<Aug 16, 2016 11:43:18 AM EDT> <Notice> <WebLogicServer> <BEA-000365> <Server state changed to STARTING>
+<Aug 16, 2016 11:43:18 AM EDT> <Info> <WorkManager> <BEA-002900> <Initializing self-tuning thread pool>
+<Aug 16, 2016 11:43:19 AM EDT> <Notice> <LoggingService> <BEA-320400> <The log file D:\Oracle\middleware\user_projects\domains\base_domain3\servers\ms2\logs\ms2.log will be rotated. Reopen the log fil
+e if tailing has stopped. This can happen on some platforms like Windows.>
+<Aug 16, 2016 11:43:19 AM EDT> <Notice> <LoggingService> <BEA-320401> <The log file has been rotated to D:\Oracle\middleware\user_projects\domains\base_domain3\servers\ms2\logs\ms2.log00001. Log messa
+ges will continue to be logged in D:\Oracle\middleware\user_projects\domains\base_domain3\servers\ms2\logs\ms2.log.>
+<Aug 16, 2016 11:43:19 AM EDT> <Notice> <Log Management> <BEA-170019> <The server log file D:\Oracle\middleware\user_projects\domains\base_domain3\servers\ms2\logs\ms2.log is opened. All server side l
+og events will be written to this file.>
+
+      =====================================================
+      <Aug 16, 2016 11:43:44 AM EDT> <Critical> <WebLogicServer> <BEA-000362> <Server failed. Reason: The server's administration channel conflicts with the admin server's>
+	  ======================================================
+	  
+<Aug 16, 2016 11:43:47 AM EDT> <Notice> <WebLogicServer> <BEA-000365> <Server state changed to FAILED>
+<Aug 16, 2016 11:43:47 AM EDT> <Error> <WebLogicServer> <BEA-000383> <A critical service failed. The server will shut itself down>
+<Aug 16, 2016 11:43:47 AM EDT> <Notice> <WebLogicServer> <BEA-000365> <Server state changed to FORCE_SHUTTING_DOWN>
+  
+==============================================================================================================================
+
+ dev_mode(development_mode)
+  
+   1.while we create Domain_home in Dev_mode, it comes with folder(i.e. servers(folder) inside AdminServer,inside Security folder,it contains boot.properties file    servers/AdminServer/Security/boot.properties)
+   2.autodeploy enabled
+   3.change center not available
+   4.datasource creation 25 connections default
+ 
+ Prod_mode(Production_mode)
+ 
+   1.It doesn't comes with servers folder...
+    so after start Admin server than only comes servers(folder) in Domain_home,
+	 After that we manually create Security(folder) inside servers(folder) then after we create boot.properties(without extension) in this Security(folder).
+	 2.autodeploy disabled
+	 3.change center available
+	 4.datasource creation 15 connections default
+	 
+   
+   
+   
+   
+
+  ================================================================
+  
+  
+  
+  
+  FileSytem
+  
+  It is way ,the OS organize files in DISK(HDD).  These file systems come in many different flavours depending on your specific needs.
+  
+  Windows      MAC    Linux
+  
+   NTFS        HFS     It have more file systems,connect to more file systems from other OS nd get the stored DATA.(having grt  
+   FAT                  Feature.
+   FAT16
+   FAT32
+  
+  ===================================================================
+   silent_mode_installation-process_STEPS
+   
+   D:\soa\FMW\Oracle\middleware\silent_mode_installation.xml.txt
+   
+   xxx.exe -mode=silent -silent-xml=c://path/xx.xml
+   
+   -log=c://path/xx.w
+======================================================
+
+For example
+
+      Linux Machine1   Linux Machine2
+Names ela1cn13         ela1cn14
+  
+===============================================
+
+BAM_Server 
+
+URL :http://localhost:9001/OracleBAM
+ 
+============================================================================= 
+ sales order
+
+colSalOrdReq100ABPImpl
+colSalOrdPro100
+
+pur order
+
+colpurReq102ABPImpl
+colpurpro10265
+================================================
+
+change center      lock & Edit --Release Configuration
+Domain Structure   Base_domain1 
+how do i
+system status      Failed,critical,Overloaded,Warning,Ok. 
+
+============================================================================================
+
+Application install
+
+
+Install a Web service
+Before you begin
+
+Read overview information about Web services. See Web Services.
+
+
+To install a Web service you specify the archive file or exploded directory that contains the Web service implementation that you want to deploy to selected targets in your domain.
+
+The Web service itself is packaged as either a Web application or EJB, depending on the Web service implementation. The Web application or EJB can be in exploded directory form, or archived as a WAR or EJB JAR file, respectively. Typically, the Web service is then packaged in an Enterprise application, again either as an exploded directory or an EAR file. When you install the Web service, you can install either the Web application or EJB on its own, or more typically, the Enterprise application which contains the Web service.
+
+To install a Web service, follow the steps described in Install an Enterprise application.
+
+============================================================================================
+
+After you finish
+
+You must start the Web service before you can invoke it from a client application. For details, see Start and stop a Web service.
+
+=============================================================================================
+
+  
+. JDBC DataSource creation
+  
+    Datasource    JNDI NAME        DataBase TYPE      DB Driver                 Connection Properties(DataBase Details)
+   
+.    WLSDSPRD   jndi/WLSDSPRD        oracle DB 	      Oracle'sDrive Thin XA            DB name
+.													           					       Host name
+.													            				       port
+.													           					       DB User name
+.													           					       pwd
+
+
+ JDBC DataSource
+
+          A JDBC data source is an object bound to the JNDI tree that provides database connectivity through a pool of JDBC connections. Applications can look up a data source on the JNDI tree and then borrow a database connection from a data source.
+   
+       ex:  jndi/WLSDSDEV1(DataSource)
+	        jndi/WLSDSPRD2(DataSource)
+			
+ Application       DataSource On  JNDI tree(jndi/WLSDSDEV1)
+ ==========================================================================================================================
+ 
+ Users and Groups
+ 
+ users in Attribute tab(Doubt  = I tried but I didn't get)
+ 
+  Use this page to set or modify values for the attributes of the selected user. Note that the ability to set, modify, and manage these attribute values is available only with the WebLogic Authentication provider (also known as the DefaultAuthenticator).
+E
+  1)Admin      :  Administrators can view and modify all resource attributes and start and stop servers.
+  2)Operators  :  Operators can view and modify all resource attributes and perform server lifecycle operations.
+   
+ 
+ ===================================================================================================================
+
+Log formate
+
+    1          2    	  3		   4		 5     	   6 	 	   7		 8			9		10
+<Time Stamp><severity><service><host-name><server><ThreadType><WLSKernel><Thread ID><BEA-ID><Message>
+
+All_WLS_logs Location
+
+D:\ALL_WlS_logs
+
+Rotate log file on startup 
+
+========================================================================================================
+
+Users And Groups
+
+Users:
+
+Deployer
+
+ No optional displayed here
+ 
+ 
+ ===========================================================================================================
+ 
+ JMS Servers
+ 
+ 
+  JMS Server Properties
+  
+  
+   JMS Server Name          :   WLSJMS     WLSJMS1  WLSJMS3
+  
+   persistent store			:   1)File Store    2)JDBC Store
+                                 
+								  WLSFS 
+                                 D:\Oracle\middleware\user_projects\domains\base_domain1\servers\AdminServer\data\store
+								 
+								 
+								 2)JDBC Store
+								 
+								 NAME       :JDBC Store
+								 Target     :AdminServer
+								 DataSource :JDBCDataSource
+								 JNDI       :jndi/JDBCDataSource
+								 
+ jms server creation
+
+  1) Create DataSource  
+       JMSDS 
+	   jndi/JMSDS
+
+ JMS Server  :WLSJMS5 
+ 
+ JMS Modules - systemModule1 - Queue1 (jndi/JDBCDataSource) - Subdeployments :sub1 - AdminServer+WLSJMS Server  - Targets Tab :Admin Server 
+ 
+ JMS Modules - systemModule5 -     
+   
+
+=====================================================================================================
+Configure T3 protocol
+
+T3 is Oracle's proprietary protocol. To configure the T3 protocol:
+
+If you have not already done so, in the Change Center of the Administration Console, click Lock & Edit (see Use the Change Center).
+In the left pane of the Console, expand Environment and select Servers.
+On the Servers page, click on the server name.
+Select Protocols > General.
+Modify the values for Complete Message Timeout and Maximum Message Size.
+See Configuration Options.
+
+Note: These settings apply to all protocols in the server's default network configuration. See Configuring Network Resources.
+
+To enable tunneling of connections, select Enable Tunneling and provide values for Tunneling Client Ping and Tunneling Client Timeout.
+See Configuration Options.
+
+Note: These settings apply to all protocols in the server's default network configuration that support tunneling.
+ 
+Click Save.
+To activate these changes, in the Change Center of the Administration Console, click Activate Changes. 
+Not all changes take effect immediately—some require a restart (see Use the Change Center).
+Result
+
+All modifications to the T3 protocol settings take effect immediately.
+==================================================================================================================
+
+Node Manager location
+
+D:\Oracle\middleware\wlserver_10.3\server\bin\startNodeManager.cmd
+
+=====================================================================================
+wifi
+
+192.168.0.1/                       TP-LINK 
+
+username:venkata106
+Pwd     :venkata_chaitu
+
+customer.wowexperience.in
+
+
+=====================================================================================================================
+logs  Error
+
+ <Warning> <Log Management> <BEA-170011> <The LogBroadcaster on this server failed to broadcast log messages to the admin server. The Admin server may not be running. Message broadcasts to the admin server will be disabled.>
+ 
+ <Log messages of every severity will be displayed in the shell console.>
+
+ 
+ 
+ Software installation
+ 
+      package installer                                    upgrade installer
+  
+  Generic package installer                      Generic upgrade installer
+  OS-specific package installer                  OS-specific upgrade installer
+  
+  
+  ================================================================================================
+  
+  Resetting Admin Username & PWD
+  
+   Method :1
+     
+	  we know (Admin)weblogic console login Username & Password
+	    then login console 
+		 security realm - myrealm - Users and Group tab 
+		 
+		 now create new User & Password for Weblogic Console
+		 
+		 We successfully Re-setted Admin Username & Password
+ 		 
+  Method :2
+  
+    1) Stop All server's
+	2) Now we take backup of  "DefaultAuthenticationinit.ldift" file in Domain_HOme/security/DefaultAuthenticationinit.ldift
+	   and we take backup of "LDAP files " in Domain_Home\\servers\AdminServer\data. Better take backup of "Data" folder (i.e Data_bkp)
+	3) Now Run below command 
+	     Domain_Home\bin\setDomainEnv.cmd 
+    4) Now Run below command 
+	    Domain_Home\base_domain1\security>java weblogic.security.utils.AdminAccount newweblogic Password1234 .
+		Domain_Home\base_domain1\security>java weblogic.security.utils.AdminAccount weblogic Password123 .
+		
+		Here don't forget .(dot) end of the command
+	
+	
+	
+===============================================
+
+  
+  
+ 1.What is self signed certificate and what is the use?
+2.Why we need to configure Certificates?
+3.Who are the CA?
+
+
+Steps to perform for certificate configuration - self signed.
+
+Step1.keytool -genkey -alias selfsignedkey1 -keyalg RSA -keysize 1024 -validity 365 -keypass sspassword1 -keystore identity.jks -storepass ssspassword1
+
+alias selfsignedkey1
+keypass sspassword1
+storepass ssspassword1
+
+step2.keytool -export -alias selfsignedkey1 -file newroot.cer -keystore identity.jks -storepass ssspassword1
+
+
+<---- keytool -import -alias selfsignedkey1 -file newroot.cer -keystore trust.jks -storepass password ---->  syntax
+
+step3.keytool -import -alias selfsignedkey1 -file newroot.cer -keystore trust.jks -storepass ssspassword1
+
+
+----Verify Purpose------
+keytool -list -v -keystore identity.jks -storepass ssspassword1
+
+keytool -printcert -file newroot.cer
+ssspassword1
+----------------------------- 
+
+
+Application Structure 
+
+https://docs.oracle.com/cd/E13222_01/wls/docs61/programming/app_xml.html
+
+http://www.slideshare.net/odedns/designing-jee-application-structure
+
+
+
+
+
+https://www.youtube.com/watch?v=vE4KkAtAdHY
+
+D:\Oracle\middleware\user_projects\domains\base_domain1\servers\AdminServer\stage
+
+.\servers\AdminServer\upload
+
+
+
+
+merriam-webster.com
+==========================================================================================
+
+
+http://ramaprasad434.blogspot.in/2013/07/different-types-of-deployments-in.html
+
+Difference b/w wls WLS8.1, WLS9x, WLS10.3 and 11G
+
+=============
+
+
+https://www.youtube.com/watch?v=17qhikHv5hY&spfreload=10  
+ 
+ Apache installation
+
+
+
+
+ how many ways to find weblogic versions
+ 
+ 
+   1)  MW_Home    registry.xml     component name=”WebLogic Server”” version=”10.3.3.0″
+   2)  $DOMAIN_HOME/servers/AdminServer/admin/AdminServer.log and search for “WebLogic Server“.
+   3) weblogic.jar ($WL_HOME/server/lib) and run below command
+
+      java -cp weblogic.jar weblogic.version 
+	  
+	  
+==============================================================================.	  
+ Application Server versions[edit]
+ 
+				WebLogic Server 12c R2 (12.2.1) - October 26, 2015[1]
+				WebLogic Server 12c Release 3 (12.1.3) - June 26, 2014[2]
+				WebLogic Server 12c Release 2 (12.1.2) - July 11, 2013[3]
+				WebLogic Server 12c Release 1 (12.1.1) - Dec 1, 2012[4]
+				WebLogic Server 11gR1 PS5 (10.3.6) - February 26, 2012[5]
+				WebLogic Server 11gR1 PS4 (10.3.5) - May 16, 2011[6]
+				WebLogic Server 11gR1 PS3 (10.3.4) - January 15, 2011
+				WebLogic Server 11gR1 PS2 (10.3.3) - April 2010[7]
+				WebLogic Server 11gR1 PS1 (10.3.2) - November 2009
+				WebLogic Server 11g (10.3.1) - July 2009
+				WebLogic Server 10gR3 (10.3) - August 2008[8][9]
+				WebLogic Server 10.0 - March 2007[10]
+				WebLogic Server 9.2
+				WebLogic Server 9.1
+				WebLogic Server 9.0 - November 2006[11]
+				
+WebLogic Server 8.1-bea - July 2003[11]
+WebLogic Server 7.0 - June 2002[12]
+WebLogic Server 6.1
+WebLogic Server 6.0 - file date March 2001 on an old CD[13]
+WebLogic Server 5.1 (code name: Denali) First version supporting hot deployment for applications (via command line)
+WebLogic Server 4.0
+WebLogic Tengah 3.1 - June 1998[14]
+WebLogic Tengah 3.0.1 - March 1998[15]
+WebLogic Tengah 3.0 - January 1998[16]
+WebLogic Tengah - November 1997[17]	  
+
+
+===============================================================================================
+
+NETS
+
+Network for electronic transfers 
+  
+  =====================================================================
+  NETS means Northern European Transaction Services. It is an organisation formed by the integration of various independent companies providing services at Denmark and Norway. Later the Finland also comes into Picture to strengthen its root in Finland.
+  ======================================================================
+
+Nets is a Nordic provider/Multiple provider of payments, cards and information services. The company has been known as Nets since 2009.
+
+Nets is Company & Nordic Provider
+
+  Its provides
+   Multiple systems,
+   Multiple infrastructure,                      which facilitate electronic banking services and financial payments.
+   Multiple services
+   Multiple Payments
+   Multiple cards
+   Multiple information services,
+
+Headquarters‎: ‎Ballerup, Denmark	Founded‎: ‎2009
+Number of employees‎: ‎2698 (2014)	Key people‎: ‎Inge K. Hansen; (Chairman); Bo N
+
+Provides infrastructure, systems and services which facilitate electronic banking services and financial payments.
+	    
+Nic points end of the docments
+
+ https://www.quora.com/What-is-the-difference-between-paying-by-VISA-and-paying-by-NETS-in-Singapore
+ https://en.wikipedia.org/wiki/Nets_Group   
+   
+   Business areas[edit]
+    
+Payment & Information Services handle local direct debit solutions. These are called Betalingsservice, AvtaleGiro and eFaktura and are an integral part of the Danish and Norwegian payment infrastructures.
+
+The section Cards manage payment card solutions by offering issuers and acquirers secured front-end and back-end solutions. They are a large card issuing and acquiring partner for banks and non-banks in northern Europe. Cards is also a central part of the local payment infrastructure in Denmark and Norway, providing processing and service for the domestic card schemes Dankort and BankAxept.
+
+E-security provides electronic document signing and service for international banks and enterprises to help them secure their e-mails, workstations, networks, applications and deploy employee ID cards for access control.
+
+Merchant Solutions offers payment solutions for all types of businesses; from small shops, clubs and associations to national or Nordic chains. Their solutions are specified for each Nordic market and their products comply with the national and international security standards.
+
+Teller handles the acquiring of national and international payment cards, primarily in the Nordic market. Teller also deal with merchant agreements for the most frequent used local as well as international cards such as Dankort, Visa, MasterCard, American Express, JCB and China UnionPay.
+
+Expansion of NETS[edit]
+
+  ==========================================================
+  NETS means Northern European Transaction Services. It is an organisation formed by the integration of various independent companies providing services at Denmark and Norway. Later the Finland also comes into Picture to strengthen its root in Finland.
+  ============================================================ 
+ 
+ 
+ 
+The customers of Nets are 
+ 1)banks,
+ 2)businesses,
+ 3)merchants 
+ 4)the public sector.
+ 
+ 
+ 
+ How do I open, create, edit, and view a file in Linux?
+  
+         http://www.computerhope.com/issues/ch000773.htm
+ 
+ 
+ Command line commands
+ 
+ http://cects.com/using-the-winrar-command-line-tools-in-windows/
+ 
+ create notepad
+ 
+     1) echo.>myfile.txt
+	 2) start notepad myfile.txt  or  hope.txt
+	 
+	 
+	 
+	 
+webmethods
+
+
+ http://www.developersbook.com/webMethods/interview-questions/webMethods-interview-questions-faqs.php
+ 
+ http://www.developersbook.com/index.php
+ 
+ 
+ hindi 
+ 
+ http://mymemory.translated.net/en/Hindi/Telugu/pata-nahi
+ 
+ http://www.tweakandtrick.com/2011/12/command-prompt-shutdown-your-computer.html
+ 
+ Ubuntu install
+ 
+ https://www.redfox.bz/en/download.html download site
+ 
+ http://www.pcworld.com/article/2142325/install-ubuntu-and-keep-windows.html
+ 
+ http://www.webadvices.com/2011/05/install-ubuntu-inside-windows-without-cd-or-usb-flash-drive.html
+ 
+ 
+ Thread Dump 
+ 
+ http://narayanasetti.blogspot.in/2014/02/thread-dump.html
+ 
+ 
+ we can grep for the java process
+ 
+ 
+ Multiple OS installation path
+ 
+ https://www.youtube.com/watch?v=4v2B-Rjak8U
+ 
+ 
+ Awesome install Thru commands line only
+ 
+ 
+  path   :  http://operating-systems.wonderhowto.com/how-to/triple-boot-three-operating-systems-one-computer-201831/
+  
+  http://operating-systems.wonderhowto.com/how-to/triple-boot-three-operating-systems-one-computer-201831/
+  
+  
+  My skirt shrank in the wash.
+These trousers must have shrunk - I can't do the zip up.
+Have you shrunk? You look so much thinner!
+People shrink as they get older.
+Unfortunately, the world population of Hawaiian geese has shrunk to very small numbers.
+Thesauru
+
+
+cmd is linux features
+
+https://www.youtube.com/watch?v=GWJT-6gOQRU
+
+UNIX ang CYGWIN
+http://www2.imm.dtu.dk/courses/02333/cygwin_tutorial/index.html
+
+
+RCU tables cmds
+
+SELECT table_name  from all_tables where owner = 'DEV_SOAINFRA';
+SELECT table_name  from all_tables where owner = 'DEV_MDS';
+SELECT table_name  from all_tables where owner = 'DEV_ORABAM';
+SELECT table_name  from all_tables where owner = 'DEV_ORASDPM';
+
+
+conn DEV_SOAINFRA/Password123   conn DEV_MDS/Password123  conn DEV_ORABAM/Password123  conn DEV_ORASDPM/Password123
+
+select * from AUDIT_COUNTER;
+
+desc audit_counter;
+
+=========================================================
+
+While we start ManagerServer  gettng Error
+
+
+ 1)Error occurred during initialization of VM & Could not reserve enough space for object heap
+
+	You have a fresh SOA Installation and get these errors while starting the Admin Server with command: startWebLogic.cmd 
+	
+	Error occurred during initialization of VM Could not reserve enough space for object heap Could not create the ""Java virtual machine"". 
+	
+	Solution : Open user_projects\domains\base_domain\bin\setSOADomainEnv.cmd file and change : From : set JAVA_OPTIONS=%JAVA_OPTIONS% set DEFAULT_MEM_ARGS=-Xms512m -Xmx1024m set PORT_MEM_ARGS=-Xms768m -Xmx1536m To: set JAVA_OPTIONS=%JAVA_OPTIONS% set DEFAULT_MEM_ARGS=-Xms512m -Xmx768m set PORT_MEM_ARGS=-Xms768m -Xmx1536m Save the file and then re-run startWebLogic.cmd :
+
+	
+ 2)Unable to start WLST: “Could Not Find or Load Main Class weblogic.WLST”
+ 
+	The above error means that the correct CLASSPATH has not been set in order to start WLST. The same error can occur for other utilities such as weblogic.Deployer, utils.dbping or even weblogic.Server etc
+
+	The root cause is always the same, the required classes are not loaded and here are a couple of  ways to fix the issue.
+
+	
+	1) D:\u01\soa_prod\Oracle\middleware\wlserver_10.3\server\bin\setWlstEnv.cmr
+	2) D:\u01\soa_prod\Oracle\middleware\Oracle_SOA1\common\bin\setWlstEnv.cmd
+	
+	
+
+	1. Make sure the right environment is set by running the setWLSEnv.sh script. This is located under @MW_HOME/wlserver_10.3/server/bin
+
+	The setWLSEnv.sh script needs to be sourced in order to execute the script in the context of the running shell, and have the actual environment of the shell be set. It has to be executed as either “. ./setWLSEnv.sh” (notice the extra dot) or “source ./setWLSEnv.sh” and then the CLASSPATH can be confirmed in the current shell with the “env” command.
+
+Simply executing the script “./setWLSEnv.sh” will only display the output on the screen.
+
+
+3)  Error
+	"Error occurred during initialization of VM
+	Could not reserve enough space for object heap
+	Could not create the Java virtual machine. "
+
+  Reason for this error is when we make changes memory variable and assign more memory and we don't have enough memory available... server startup is failed with this error.
+
+Solution
+You can remove this error while decreasing heap size in setSOADomainEnvt.cmd
+
+%ORACLE_HOME%\user_projects\domains\DOMAIN\BIN\setSOADomainEnvt.cmd
+
+set DEFAULT_MEM_ARGS=-Xms512m -Xmx1024m 
+set PORT_MEM_ARGS=-Xms768m -Xmx1536m
+set DEFAULT_MEM_ARGS=%DEFAULT_MEM_ARGS% -XX:PermSize=128m -XX:MaxPermSize=512m 
+set PORT_MEM_ARGS=%PORT_MEM_ARGS% -XX:PermSize=256m -XX:MaxPermSize=512m
+
+
+
+
+%ORACLE_HOME%\user_projects\domains\DOMAIN\BIN\setSOADomainEnvt.cmd
+
+ 
+
+2. The alternative is to run directly the specific wlst.sh of the Oracle product that is installed. This will automatically set the correct environment for that product.
+
+The script is located under $ORACLE_HOME/common/bin/wlst.sh	
+	
+
+Roles
+1.Daily server monitoring and ds as well.
+2.I am performing Deployments based on Change requests (CHG000450). NON-prod:daily Prod :weekly
+3.sending daily reports like po,shipment.
+4.ticket closing before breaching time.
+5.Involving Monthly bounce activity and different activities
+6.certificate key renuwals when before expired - dev,qat/uat,prd.
+7.weblogic & soa patches.
+
+  
+
+	Troubleshooting, Load Balancing, Clustering, Deploying Applications,incident management ,monitoring performance tuning and Maintenance. 
+	Create, configure and tune weblogic domains/applications for performance
+
+	Product Installation, configuration
+	3. User management, product installation
+	4. Good experience in clustering, port communication, and Implementing horizontal and vertical clustering, Work Load Management (WLM) to make the application Highly Available.
+	5. Configured resources including JDBC providers, JDBC data sources, and connection pools.
+	6. Good knowledge on Http and Application Clustering, session replication, JMS, JDBC, failover, High availability and load balancing.
+==================================================================================================================
+
+
+WebLogic
+========
+Design, develop and install new middleware, system upgrades, evaluate and install patches and resolve platform related problems.
+Installation, Clustering/Load Balancing, maintenance/patching, performance/monitoring of Oracle WebLogic.
+Extensive knowledge with server tuning
+Ensure middleware applications are planned, designed, developed, installed and configured and operated at optimum levels
+Troubleshooting, Load Balancing, Clustering, Deploying Applications, Performance Tuning and Maintenance.
+Deployment and troubleshooting of JAR, WAR, and EAR files in domain and clustered environments
+Code deployments/promotions, performance monitoring and performance tuning
+Upgradation of WebLogic servers in development, testing and production environment and applying patch and service packs
+JMS Configurations- JMS Server, Connection Factory, Foreign JMS server, Message Bridge, Topic/Queue, Distributed destinations
+Creating security roles, group policy, user authentication, and authorization
+Work on Web Security tools- LDAP Server, SSL Certificates and client authentication.
+Node Manager Configuration - remote managed server start and stop. SSL communication between admin server and node manager
+Writing Scripts to handle complex automation / administration using Shell scripting
+Tuning JVM heap size to maximize the number of clients accessing the applications.
+Monitoring thread usage, connection pool usage, CPU usage, Memory usage and preparing reports for the performance tests, dry run tests and load tests conducted on the Application Servers
+
+===============================================================================================
+
+
+
+	
+Installation and Configuration of Oracle Web Logic Server, Tomcat Server, Apache Server and JBoss.
+Handling of incident requests, change requests as per ITIL process.
+Deployment of applications.
+Configuration of data sources.
+Involved in deploying applications onto the clusters and implemented Work Load Management and Failover.
+Tuning of JVM.
+Troubleshooting issue like thread dump, heap dumps, high CPU/memory, server crash.
+Deployment of application and/or releasing application patches.
+Active involvement in DR drills performed in critical applications.
+
+
+
+	
+
+	
+	
+Only SOA (oracle_home) Uninstallation/deinstallation
+
+ Cmd : D:\u01\soa_prod\Oracle\middleware\Oracle_SOA1\oui\bin>setup.exe -deinstall
+
+======================================================================================================================
+
+Steps to remove a domain from Weblogic Server
+As of now there is no out of the box feature with Weblogic Configuration wizard to remove or delete a domain. These are basically manual steps.
+For example if I want to delete a domain named geo_domain below are the steps you need to remove the domain.
+
+
+ 1) Open domain-registry.xml under $Middleware_HOME .Remove the corresponding entry referring to geo_domain.
+CodeSnippet :: domain-registry.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<domain-registry xmlns="http://xmlns.oracle.com/weblogic/domain-registry">
+<domain location="C:\Oracle\Middleware\user_projects\domains\soa_domain"/>
+<domain location="C:\Oracle\Middleware\user_projects\domains\geo_domain"/>
+</domain-registry>
+
+ 2) Open nodemanager.domains file under $Middleware_HOME \wlserver_10.3\common\nodemanager\ folder. Remove the corresponding entry referring to geo_domain.
+CodeSnippet :: nodemanager.domains
+#Domains and directories created by Configuration Wizard
+geo_domain=C\:\\Oracle\\Middleware\\user_projects\\domains\\geo_domain
+
+ 3) Delete the domain folder under domains folder manually.
+$Middleware_HOME\user_projects\domains\geo_domain
+
+ 4) Delete the domain folder under applications folder manually.
+$Middleware_HOME\user_projects\ applications\geo_domain
+	
+	
+	
+	
+SOA Components load into DB Thtu RCU
+
+ Components Schemas
+  
+    DEV_MDS
+	DEV_SOAINFRA
+	DEV_ORABAM
+	DEV_ORASDPM/DEV_IAS_ORASDPM
+Component
+ Metadata Services
+ SOA infrastructure
+ Business Activity Monitoring
+ User Messaging Service
+	
+
+Domain creation
+
+
+  Create Domain
+  Select Domain Sources
+  Specify Domain name nd location(Domain name,Domain Location,Application Location)
+  Configuration Administrator Username Nd Pwd
+  Configure Server Start Mode and JDK
+   1) Development Mode  
+   2) Production Mode    + JDK
+  Configure JDBC Component Schema
+  Test JDBC Component Schema
+ Select Optional Configuration(Managed Servers,Clusters,Machine)
+ 
+   1.1 configure Managed Servers
+   1.2 Configure Cluster
+   1.3 Assign Server to Clusters
+   1.4 configure Machines
+   1.5 Assign Servers to Machines
+ Configuration Summary
+ Creating Domain 
+
+ 
+ 
+  
+Dual-Core CPU
+
+Inte(R) Core(TM) i7 CPU M370
+
+
+
+Perfomance Tunning of SOA em Console
+
+ 1) Enable to Disabling Metrics 
+     
+	   soa-infra > SOA Administration > common properties
+It will take you to "SOA Infrastructure Home > Common Properties"Disable the metrics by selecting the check box, "Disable fetching of instance and fault count metrics. Each metric can still be retrieved on demand."  -  By Default fault count metrics is enabled.
+
+2)Disabling Audit Recovery Status
+
+  Login to em right click soa-infra > SOA 
+  Administration > common properties
+  
+  Click on "More SOA Infra Advanced Configuration Properties.
+  
+  Select soa-infra and on the right side click on AuditConfig.
+  
+   The default value is 'All'  and disabling the same by entering 'Off' (case - sensitive). Above change will disable 'BPEL Message Recovery Required'
+
+
+1. Disabling Metrics 
+2. Disabling Audit Recovery Status 
+3. Disabling JMX Notifications
+
+
+===============================================================================================================
+
+
+About your self?breif me about your self?tell me about your self?
+
+My self harikrishna and I'm graduate in BE/Btech from JNTUK And having 4+yrs of experience in FMW Administrator.
+currently working with arva software as a Associate Consultant.
+I"m supporting for the client NETS and it is a service provider in nordic countries.
+comming to the client Architecture 2 clusters with 8 managed server excluding Admin server for proving H/A.
+in client environment we are using versions like weblogic 11g that is 10.3.6.0,soa11g-11.1.1.6 and DB 11g-11.2.0.4.
+
+Giving support for this client 24/7 Prod And Non-Prod.
+We have different teams like deployment,monitoring,development and batch teams ,I am proving service to these teams when they required my presence.
+
+Coming to the my rolls and responsibilities :
+
+1.Daily server and datasources monitoring.
+2.I am performing Deployments based on Change requests (CHG000450). NON-prod:daily Prod :weekly
+3.sending daily report transactions
+4.ticket closing before breaching time.
+5.Involving Monthly bounce activity and different activities patching in OS,DB cloning.
+6.certificate key renuwals before they expired - dev,qat/uat,prd.
+7.weblogic & soa patches.
+
+This is all about my self.
+
+
+============================================================================================================================
+
+SSL creation
+
+https://blogs.oracle.com/blogbypuneeth/entry/steps_to_create_a_csr
+
+
+Email     :  
+firstname  : puneeth
+lastname    : prakash
+Job tile    : senior software engineer
+tel         :7400215211
+
+comapanyname: oracle
+Address1    : oracle technology
+
+city     : bangalore
+state/pro : karnataka
+
+zip     :  560049
+country    : india
+
+
+========================================================
+===
+
+Cloning Oracle Fusion Middleware 11g (SOA)
+
+oracle_common/bin
+
+copybinary     Source MW
+copyconfig     make Configuraton Achive it contains Domain
+extractMovePlan
+pastebinary
+pasteConfig
+
+weblogichub@gmail.com
+cool@123
+
+==========================================================================
+
+batch file path
+
+
+http://www.makeuseof.com/tag/use-windows-batch-file-commands-automate-repetitive-tasks/
+
+
+=================================================
+
+Thread Dump
+
+
+C:\Program Files\Java\jdk1.7.0\bin\jstack 2222 > thread.out
+
+C:\Program Files\Java\jdk1.7.0\bin\jmap 2222 > heap.out
+
+C:\Program Files\Java\jrockit\bin\jrcmd 2222 print_threads thread.out
+
+C:\Program Files\Java\jrockit\bin\jrcmd 2222 print_objects heap.out
+
+==================================================================================================
+
+Also you can use a grep command to check that the Weblogic server instance process is running as it is a java process 
+
+something like -> ps -ef | grep java or ps -ef | grep startweblogic
+
+
+======================================================
+
+
+TTL
+
+Configuring the Multicast TTL parameter appropriately reduces the risk of losing the multicast messages that are transmitted among server instances in the cluster.
+
+To configure the Multicast TTL for a cluster, change the Multicast TTL value in the Multicast tab for the cluster in the Administration Console. The config.xml excerpt below shows a cluster with a Multicast TTL value of three. This value ensures that the cluster's multicast messages can pass through three routers before being discarded:
+
+<Cluster
+	Name="testcluster"
+	ClusterAddress="wanclust"
+	MulticastAddress="wanclust-multi"
+	MulticastTTL="3"
+/>
+
+============================================================================================
+Pening Process
+
+
+1) silent mode installation
+
+
+============================================================================================
+
+Query's
+
+External_stage
+
+ 1)script for auto deploy application into target servers
+ 2) Every nodemanage 've different Env variable setting when we done any change , those will effect for this
+ 
+ JVMRuntimeMBeans
+ 
+
+ 
+=========================================================================================
+
+starting of server in WLS
+
+
+ Domain_Home Env varable is set
+ 
+ StartWeblogic.sh  call--> setDomainEnv.sh call-->  commEnv.sh
+ 
+ commEnv.sh sets series of comm Env variables
+ 
+ 
+ 
+ http://whatis.techtarget.com/definition/IIOP-Internet-Inter-ORB-Protocol
+ 
+ =============================================================================================
+ 
+ Resources and Services
+ 
+In addition to the Administration Server and Managed Servers, a domain also contains the resources and services required by Managed Servers and hosted applications deployed in the domain.
+
+Examples of domain-level resources include:
+
+	1) Machine definition to identify a specific computer. A Machine definition is used to associate a computer with the Managed Server(s) it hosts. This information is used by Node Manager in restarting a failed Managed Server, and by a clustered Managed Server in selecting the best location for storing replicated session data. For more information about Node Manager, see Overview of Node Manager.
+	2) Network channels, an optional resource that can be used to define default ports, protocols, and protocol settings. After creating a network channel, you can assign it to any number of Managed Servers and clusters in the domain. See Configuring Network Resources for more information.
+
+Managed Servers in the domain host their own resources and services. You can deploy resources and services to selected
+ Managed Servers or to a cluster. Examples of deployable resources include:
+
+	Application components, such as EJBs, Web Applications, J2EE Connectors and Enterprise Applications
+	Startup and shutdown classes
+	JDBC connection pools
+	JMS servers
+	Virtual Hosts
+====================================================================
+
+net user  
+
+SSL
+
+
+certmgr.msc 
+
+netsh http show sslcert
+
+
+use the Java keytool.exe command line utility to request a signed certificate from a Certificate Authority (CA) and how to install that certificate to weblogic server after it is received.
+
+Step 1: Create a Keystore File and Generate a Key Pair
+
+   Using the Java keytool command line utility, the first thing you need to do is create a keystore file and generate the key pair.
+
+   
+   
+   
+   
+   
+   =====================================================================================================================
+   
+   Generating a key pair (and a new keystore) has to be done as a separate operation to creating a self-signed certificate for that key.
+   
+   i.e.
+
+keytool -genkey -alias myKey -keystore store.jks
+keytool -selfcert -alias myKey -keystore store.jks
+
+
+
+=================================================================================================================
+
+"certmgr.exe" is a Certificate Manager command line tool that allows you to manage certificates, certificate trust lists (CTLs), and certificate revocation lists (CRLs).
+
+The Certificate Manager tool (certmgr.exe) is a command-line utility tool, whereas Certificate Manager console (certmgr.msc) is a Microsoft Management Console (MMC) snap-in GUI utility tool. Both of them can be used to manage certificates on Windows systems.
+
+Certmgr.exe performs the following basic functions:
+
+Displays certificates, CTLs, and CRLs to the console.
+Adds certificates, CTLs, and CRLs to a certificate store.
+Deletes certificates, CTLs, and CRLs from a certificate store.
+Saves an X.509 certificate, CTL, or CRL from a certificate store to a file.
+Certmgr.exe works with two types of certificate stores: StoreFile and system store. It is not necessary to specify the type of certificate store; Certmgr.exe can identify the store type and perform the appropriate operations.
+
+The Certmgr.exe tool is automatically installed with Visual Studio and with the Windows SDK.
+
+=================================================================================================================
+another approach
+
+
+$ keytool -genkey -alias myKeyStore -keyalg RSA -keystore
+/home/aniket/keystore/keystoreFile.txt
+
+=======================================================
+
+Step.1:
+
+       keytool -genkeypair -alias myKey -keyalg RSA -keysize 2048 -validity 365 -keypass privatepassword -keystore identity88.jks -storepass password 
+	   
+	   harikrishna  :1st nd last name[CN]
+	   wls           : Organi  unit   [OU]
+	   oracle		 : orag            [O]
+	   mumbai 		 :city              [L]
+	   maharastra    :state              [ST]
+	   IN  	 		  :country            [C]
+	   
+Step.2 :
+  
+       keytool -certreq -alias mykey -file certreq9.pem -keystore identity9.jks
+	   
+	   
+	   
+Command : keytool -importcert -alias inter -file intermediate.pem -keystore identity.jks -storepass password
+
+Command : keytool -importcert -alias root -file root.pem -keystore identity.jks -storepass password 
+
+Command : keytool -importcert -alias mykey -file signedcert.pem -keystore identity.jks -storepass password 
+	   
+	   
+	   
+============================================================================================================	   
+	   
+	   Keystore Delete Process
+	   
+	   Method.1:
+	   
+	   1) C:\Program Files\Java\jdk1.7.0\bin>keytool -delete -keystore identity9.jks -storepass password 
+	   
+	   Method.2:
+	   
+	   1)C:\Program Files\Java\jdk1.7.0\bin>keytool -delete -keystore identity9.jks
+	    Enter alias name:
+		Password
+		Re-Password:
+================================================================================================================
+
+  keystore list	
+  
+   C:\Program Files\Java\jdk1.7.0\bin>keytool -list -v -keystore oracle.jks (or) identity.jks (or) aimtech.jks
+   
+=================================================================================================================   What is a Certificate Signing Request (CSR)?
+
+A Certificate Signing Request (CSR) is a PKCS10 request which is an unsigned copy of your certificate. Entrust Certificate Services will use the Certificate Signing Request (CSR) to generate your signed digital x509 V3 SSL server certificate. Your CSR contains the following:
+
+ 1)Information about your organization (organization name, country, etc…)
+ 2)Your Web Server’s public key
+ 3)A unique mathematical match to your server’s private key
+		
+	
+	   
+================================================================================================================
+
+
+ps -ef | grep Middle
+
+ps -efl | grep weblogic | grep java | grep Dweblogic.Name | grep -v grep
+
+ps -ef | grep jdk
+
+There mightbe possibility that your ps output is truncated by default.
+
+Like on solaris box the ps output will be truncated like above in that case you can use below command
+
+/usr/ucb/ps awwx|grep java|grep -i Admin -This will show Admin Server
+
+/usr/ucb/ps awwx|grep java|grep -i "Managed_server_Name" - For Managed server
+
+/usr/ucb/ps awwx|grep java|grep -i Node - For Node manager process
+
+To identify by pid by domain you can use command like
+
+/usr/ucb/ps awwx|grep java|grep -i "DOmain_name" |grep -i "Managed_server_name"
+
+You can check domain name and managed server name using Admin console	   
+	   
+	   
+===============================================================================================================
+
+silent-mode_installation	   
+	   
+wls1036_generic.jar -mode=silent -silent_xml=D:\pendrive\SOADump\SOA11_1_1_6\3_wls\silent.xml -log=D:\pendrive\SOADump\SOA11_1_1_6\3_wls\silent-install.log	   
+	
+============================================================================================================	
+
+T3 protocol
+
+The protocol used for the T3 connection also 
+enhances efficiency,
+minimizes packet sizes,
+increasing the speed of the delivery method.
+
+=============================================================================================================
+
+
+jar process
+
+ 
+ jar_file  creation   :    jar cf jar_filename(wls1036.jar) 111.txt ee.txt
+ jar_file  view       :    jar tf jar_filename(wls1036.jar)
+ jar_file  Extract    :    jar xf jar_filename(wls1036.jar)
+ jar_file  Extract specific file from jar   :    jar xf jar_filename(wls1036.jar) File_name inside jar (jjj.txt)
+ 
+ 
+ ================================================================================================================
+ 
+ OSB 
+ 
+ https://www.youtube.com/watch?v=4SLunYTIgak
+ 
+ ================================================================================================================
+ Process vs Thread
+ 
+ when you double-click the Microsoft Word icon, you start a process that runs Word.   "" A thread is a path of execution within a process.""  Also, a process can contain multiple threads. When you start Word, the operating system creates a process and begins executing the primary thread of that process.
+ 
+ 
+ 9844256373 manj
+ 
+ =======================================================================================================================
+ 
+ nmConnect('D:\u01\soa_prod\Oracle\middleware\user_projects\domains\base_domain1','D:\u01\soa_prod\Oracle\middleware\wlserver_10.3\common\nodemanager')
+
+nmEnroll('D:\u01\soa_prod\Oracle\middleware\user_projects\domains\base_domain1','D:\wls_new\u01\app\oracle\middleware\wlserver_10.3\common\nodemanager')
+
+connect(‘[weblogic_user]’,'[user_password]’,’t3://[hostname]:[admin port]’)
+connect('weblogic','Password123','t3://localhost:7001')
+nmEnroll('D:/wls_new/u01/app/oracle/middleware/user_projects/domains/base_domain','D:/wls_new/u01/app/oracle/middleware/wlserver_10.3/common/nodemanager')
+
+nmEnroll(‘D:/wls_new/u01/app/oracle/middleware/user_projects/domains/base_domain','D:/wls_new/u01/app/oracle/middleware/wlserver_1.3/common’)
+
+nmConnect('weblogic', 'Password123', 'localhost', '5555','soa_domain_PVT','C:\Oracle\Middleware\user_projects\domains\soa_domain_PVT')
+
+nmEnroll(‘D:/wls_new/u01/app/oracle/middleware/user_projects/domains/base_domain','D:/wls_new/u01/app/oracle/middleware/wlserver_10.3/common’)
+
+nmEnroll('D:\wls_new\u01\app\oracle\middleware\user_projects\domains\base_domain','D:\wls_new\u01\app\oracle\middleware\wlserver_10.3\common')
+
+nmConnect('weblogic', 'Password123', 'localhost','5555','soa_domain_PVT','C:\Oracle\Middleware\user_projects\domains\soa_domain_PVT')
+
+nmEnroll('C:\Oracle\Middleware\user_projects\domains\soa_domain_PVT','C:\Oracle\Middleware\wlserver_10.3\common\nodemanager')
+
+================================================================================================================
+
+emConsole details  persisted folder location
+
+D:\u01\soa_prod\Oracle\middleware\user_projects\domains\base_domain\servers\AdminServer\tmp\_WL_internal\consoleapp
+
+====================================================================================================================	
+
+<unable to get file lock, will retry ...>
+
+
+The solution
+Delete a Domain *.lok file
+   Remove the 1 edit.lok
+   Access to domain_home:
+  cd /u01/Oracle/Middleware/user_projects/domains/idm_domain
+  Edit.lok file will be deleted
+ rm edit.lok
+  Remove the 2 config.lok
+Access to domain_home/config:
+cd /u01/Oracle/Middleware/user_projects/domains/idm_domain/config/
+Config.lok file will be deleted
+rm config.lok
+  Remove the 3 AdminServer.lok
+cd /u01/Oracle/Middleware/user_projects/domains/idm_domain/servers/AdminServer/tmp
+rm AdminServer.lok
+  Remove the 4 EmbeddedLDAP.lok
+/u01/Oracle/Middleware/user_projects/domains/idm_domain/servers/AdminServer/data/ldap/ldapfiles
+rm EmbeddedLDAP.lok
+Two delete the *.DAT file under the Domain:
+Access to the domain_home
+cd /u01/Oracle/Middleware/user_projects/domains/idm_domain
+Find the file was deleted
+[oracle@idm idm_domain]$ find servers/ -name "*.DAT" 
+servers/AdminServer/data/store/diagnostics/WLS_DIAGNOSTICS000000.DAT 
+servers/AdminServer/data/store/default/_WLS_ADMINSERVER000000.DAT
+Restart Weblogic,！
+
+============================================================================================================================
+
+Income Tax Form 16
+
+http://www.charteredclub.com/income-tax-slabs/
+
+============================================================================================================================
+
+
+
+batch file path
+
+
+http://www.makeuseof.com/tag/use-windows-batch-file-commands-automate-repetitive-tasks/
+
+==========================================================================================================================
+Multiple MS1,2,3,4...configuratioin in linux
+
+https://www.youtube.com/watch?v=5Od9iU3VahA
+
+==================================================================================================================
+
+WebLogic JMS servers that implement the messaging facility. 
+A JMS server defines a set of destinations (queues or topics) and any associated persistent storage that reside on a WebLogic Server instance.
+A JMS server manages connections and handles all message requests for its destinations on behalf of clients.
+==================================================================================================================
+
+What is Server..?
+
+ It's a computer Program ,Process the Request and send the result over the network to other computer Program
+
+
+what is weblogic ..?
+
+ It's a piece of software, it'll give the Weblogic Server, it contains WLS Instance, They contains Application Components,Resource,Service.
+ 
+ what is weblogic Server..?
+ This is a kind of Server that supports various Service as well as Infrastructure related to JEE Application
+  
+  Capable of deploying Application Components ,Resource thru WSDL,SOAP,
+  Configuration of webserver allow weblogic is providing Service to dynamic & Static request ,that are generated by jsp,servlets
+  
+  WebLogic Server is an application server: a platform for developing and deploying multitier distributed enterprise applications. WebLogic Server centralizes application services such as Web server functionality, business components, and access to backend enterprise systems. It uses technologies such as caching and connection pooling to improve resource use and application performance. WebLogic Server also provides enterprise-level security and powerful administration facilities.
+  
+  
+  
+  
+  
+ 
+============================================================================================================================
+
+ can we change log location & name ?
+ what are the certificates we get form 3rd party while we creating SSL
+ JVM Tuning(https://dzone.com/articles/java-performance-tuning)
+ Wrong code we deployed how to resolve that..
+ How do u Monitor the Servers( Servers Monitoring )..?
+ SOA em console perfomance tuning..?
+ Recently faced major problem...?
+ 
+ What is realm,Why we are using..?
+ 
+ LDAP..?
+ How do u create user's for Admin Console
+ How do take Thread Dump,Which tool u are using.
+ SOA em console perfomance tuning
+ How do u enhance ur skills...?
+ 
+ 
+ =======================================================================================================================
+ (https://dzone.com/articles/java-performance-tuning)
+ 
+ ======================================================================================================================
+ 
+WLST_THRU_jdeveloper_codeDeploy
+ https://in.video.search.yahoo.com/yhs/search;_ylt=AwrxgvkIUudXPX0AgLLnHgx.;_ylu=X3oDMTBwZ3UzNXVtBHNlYwNzYy1ib3QEY29sbwNzZzMEdnRpZAM-?p=how+to+delete+composite+using+wlst+commands&hspart=iba&hsimp=yhs-1#id=1&vid=5b15ce53367e87a76a38616e979d3e5b&action=view
+ 
+ ======================================================================================================================
+ 
+ msi_mode
+ 
+ https://docs.oracle.com/cd/E13222_01/wls/docs90/jmx/understandWLS.html
+ 
+ ==================================================================================================================
+ 
+ weblogic-ejb-jar.xml   file & elements
+
+ http://w3processing.com/Setups.php?freepageId=17
+ 
+ 
+ ==================================================================================================================
+ 
+ Administration Console
+The WebLogic Server Administration Console provides visibility into a broad array of configuration and status information.
+The Administration Console obtains information about domain resources from the domain's Administration Server. The Administration Server is populated with Management Beans (MBeans), based on Sun's Java Management Extension (JMX) standard, which provides the scheme for management access to domain resources.
+The Administration Server contains:
+Configuration MBeans, which control the domain's configuration
+Run-time MBeans, which provide a snapshot of information about domain resources, such as JVM memory usage. When a resource in the domain—for instance, a Web application—is instantiated, a run-time MBean instance is created which collects information about that resource.
+When you access a monitoring page for particular resource in the Administration Console, the Administration Server performs a GET operation to retrieve the current attribute values.
+For details on what data is available on specific console pages, see Monitoring WebLogic Server Using the Administration Console.
+ 
+ ==================================================================================================================
+ 
+ 
+ Node Manager -wslt- enroll
+ 
+ https://in.video.search.yahoo.com/yhs/search;_ylt=A2oKmM3WkuhXt1MA_unnHgx.?p=how+to+strat+nodemanager+in+weblogic+11g&fr=yhs-iba-1&fr2=piv-web&hspart=iba&hsimp=yhs-1&type=vsds_5315_CRW_IN#id=4&vid=d63319f77b4bb7f6a8cc988a4edc458e&action=view
+ 
+ 
+ 
+ ==================================================================================================================
+ 
+ 
+ 02516767311
+ 
+ 
+ ==================================================================================================================
+ 
+ 
+ 
+ LoanService
+ LoanApproval
+ AutoLoadnApproval
+ LoanBroker
+ DenmarkLoan
+ UnitedLoan
+ AmericaLoan
+ 
+ CreditCardRating Service
+ CreditCardRating Rules
+ CreditCardRating Fabric
+ 
+ DebitcardRating Service
+ DebitCardRating Rules
+ DebitCardRating Fabric
+ 
+ ==================================================================================================================
+ connect(userConfigFile=’D:\wls_new\u01\app\oracle\middleware\user_projects\domains\base_domain\userConfigFile\userConfigFile’,
+
+userKeyFile=’D:\wls_new\u01\app\oracle\middleware\user_projects\domains\base_domain\userConfigFile\userKeyFile’,
+
+url=’t3://localhost:7001′)
+
+
+nmConnect(userConfigFile=’D:\wls_new\u01\app\oracle\middleware\user_projects\domains\base_domain\userConfigFile\userConfigFile’,
+userKeyFile=’D:\wls_new\u01\app\oracle\middleware\user_projects\domains\base_domain\userConfigFile\userKeyFile’,
+host=’localhost′,
+port=’5556′,
+domainName=’base_domain’,
+domainDir=’D:\wls_new\u01\app\oracle\middleware\user_projects\domains\base_domain’,
+nmType=’plain’)
+ 
+ 
+ 
+ I guess you are referring to the SOA Composites deployed on a soa_server1 (soa domain). Use EM Console (Enterprise Manager) whose url is something lik this: http://adminhost:adminport/em. Login with same admin credentials. On left side, expand SOA Node, select your soa_server1 (or whatever is your soa server name) and right click and choose the options SOA Deployment -> Undeploy your composite. This is the safest and the cleanest way to undeploy any soa sca module. This will also remove any entries from the soa_infra database also related to this composite. After this, if you still see the composites, this means the physical sca jar file is still there in your staging folders either under adminserver or soa_Server folders. Look for this and physical delete it. If you still see them, it simply means the SOA_INFRA database is still having the records related to this composite like the Processes, instances, etc.
+
+But use EM for deploying or undeploying any soa composites.
+ 
+ 
+ 
+ 
+ 
+ 
+ http://www.fusionprofessionals.com/tag/soa-infra-data-puring/
+ 
+ https://docs.oracle.com/cd/E25178_01/fusionapps.1111/e15524/uc_bedata_sca.htm
+ 
+ https://community.oracle.com/thread/2337298
+ 
+ http://soa-practitioner.blogspot.in/2010/09/problem-with-soa-infra-not-starting.html
+ 
+ 
+ aimosbwl19_11
+ 
+ 3) Restart the computer: "win+R" type shutdown -r -t 0.
+
+Step 2:
+
+After restarting the computer open command prompt and run the following commands.
+
+"win+R" type cmd.
+Switch to admin: runas /user:(username) cmd enter password to run cmd as admin.
+Change directory where you have VMware setup: 
+cd d:\vmware
+Then lunch installation: VMware-workstation.exe /x /v EULAS_AGREED=1﻿, you should add ﻿/v EULAS_AGREED=1﻿ to enable licence agreement.
+Wait for a while and click next then modify...
+
+
+Grid Control installation
+
+https://taliphakanozturken.wordpress.com/2011/01/10/oracle-enterprise-manager-grid-control-11g-r1-installation/
+
+
+
+Responsibilities
+
+Install or Upgrade WebLogic 11g Server on Linux OS.
+Create domains, migrate domains from development environments to production environments, modify/add services to active domain and monitor domains.
+Configure connections to Web servers, databases or other systems.
+Manage the server life cycle, and monitor application server services and resources.
+Configure applications, Deploy applications, modify applications in an active domain and monitor activity within applications.
+Configure, secure and manage server and network communications.
+Troubleshoot problems on various layers of the application and infrastructure. Provide internal analysis and support.
+Create and maintain validated documentation set for operations of various service components
+Manage performance of multiple hardware and J2EE software environments
+Manage web and application servers and proxies
+Enhance and maintain existing environment(s) capacity and capabilities.
+
+
+
+Using CMD to create Other Accounts 
+
+ Run As Admin  CMD
+ 
+  net user 
+  net user mohan bing /add
+  net user venky /add
+  net user mohan /delete
+  net localgroup Administrators mohan /add
+ 
+
+
+ 
+ User : harikrishna.p@arvasoftware.com
+Pwd  : cPanel PWD
+Incoming ser : bh-38.webhostbox.net IMAP Port : 993
+                                    POP Port  : 995
+
+Outgoing ser  : bh-38.webhostbox.net SMTP Port : 465
+
+
+JMS Server
+
+https://www.youtube.com/watch?v=1KLNUMH2_YQ
+
+
+
+ssl handshake ERROR
+
+ http://stackoverflow.com/questions/17493508/weblogic-ssl-handshake-failure-trust-store-issue
+ 
+ https://blogs.oracle.com/vijaya/entry/enable_disable_ssl_jsse_in
+ 
+ WARNING
+ 
+  If JSSEEnabled is set to false, it will be ignored. That is, the MBean value will not be changed either in memory or the persisted config.xml file. WebLogic Server will continue to use JSSE, but will issue a warning.
+
+  
+  nodemanager not reacheable
+  
+  http://middlewaremagic.com/weblogic/?p=5205
+  
+  
+  
+  Job Responsibilities
+
+Role : 
+
+
+Weblogic server Administration 
+Monitoring weblogic instances 
+Daily Reports 
+Deployment tasks 
+Routine Health Check  
+Troubleshooting experience 
+Log analysis 
+Deployment activities and scripting exrperience 
+Documentation of day to day operations 
+Installation & Cluster configuraitons 
+Configurations and integrations of various weblogic components 
+Performance Tunning 
+Migrations exrpeirence 
+Automation of repeated tasks 
+
+ ==================================================================================================================
+ 
+ 
+ SSL keystores
+ 
+ Custom Identity and Custom Trust 
+                     Command Line Trust
+					 Java Standard Trust
+ Demo Identity and Demo Trust
+					 
+					 
+					 
+
+					 
+NodeManager issue's
+
+
+EmbeddedLDAP
+
+WLST-WLS-1477467580069: <Oct 26, 2016 1:10:57 PM IST> <Warning> <EmbeddedLDAP> <BEA-171520> <Could not obtain an exclusive lock for directory: D:\wls_new\u01\app\oracle\middleware\wlserver_10.3\server\bin\servers\AdminServer\data\ldap\ldapfiles. Waiting for 10 seconds and then retrying in case existing WebLogic Server is still shutting down.> 
+
+
+
+
+Middleware issue's
+
+NodeManager issue's
+
+ http://middlewaremagic.com/weblogic/?tag=nodemanager
+ 
+ 
+ creating weblogic Domain form Command Prompt
+ 
+ 
+ c:
+
+
+PACK & UNPACK CMD  in weblogic Process
+ 
+C:\Oracle\Middleware\wlserver_10.3\common\bin>pack.cmd -managed=true -domain=C:\Oracle\Middleware\user_projects\domains\base_domain -template=C:\Oracle\Middleware\1.jar -template_name="hari"
+
+
+C:\Oracle\Middleware\wlserver_10.3\common\bin>pack.cmd -managed=true -domain=C:\Oracle\Middleware\user_projects\domains\base_domain -template=D:\1.jar -template_name="hari1"
+
+C:\Oracle\Middleware\wlserver_10.3\common\bin>pack.cmd -managed=true -domain=C:\Oracle\Middleware\user_projects\domains\base_domain -template=D:\2.jar -template_name="hari2"
+
+
+Connect to Remote machine
+
+1st machine 192.168.114.129
+
+ middleware]#scp 1.jar root@192.168.114.128:/root/Downloads/
+ 
+ root@192.168.114.128's password: *****
+
+
+2ns machine 192.168.114.128
+
+    root@192.168.114.128:/root/Downloads/1.jar
+
+    cd C:\Oracle\Middleware\wlserver_10.3\common\bin
+	
+	C:\Oracle\Middleware\wlserver_10.3\common\bin>unpack.cmd -domain=C:\Oracle\Middleware\user_projects\domains\base_domain -template=\root\Downloads\1.jar
+ 
+ ==================================================================================================================
+ 
+
+
+ Create Domain using WLST
+ 
+ 
+C:\Oracle\Middleware\wlserver_10.3\common\bin>setWLSEnv.cmd
+
+ C:\Oracle\Middleware\wlserver_10.3\common\bin>java weblogic.WLST
+ 
+ wls:/offline>readDomain('C:\Oracle\Middleware\user_projects\domains\base_domain')
+ 
+ wls:/offline>writeTemplate('D:\1.jar')
+ 
+ wls:/offline>closeDomain()
+ 
+ wls:/offline>createDomain('D:\1.jar','C:\Oracle\Middleware\user_projects\domains\d04_domain','weblogic','Password123')
+ 
+ wls:/offline>readDomain('C:\Oracle\Middleware\user_projects\domains\d04_domain')
+ 
+ wls:/offline>ls()
+ 
+ 
+   (or)
+   
+ C:\Oracle\Middleware\wlserver_10.3\common\bin>setWLSEnv.cmd  
+   
+Your environment has been set.
+C:\Oracle\Middleware\wlserver_10.3\server\bin>java weblogic.WLST
+
+Initializing WebLogic Scripting Tool (WLST) ...
+
+Welcome to WebLogic Server Administration Scripting Shell
+
+Type help() for help on available commands
+
+wls:/offline> readDomain('C:\Oracle\Middleware\user_projects\domains\d03_domain')
+wls:/offline/d03_domain>writeTemplate('D:\do3_domain.jar')
+wls:/offline/d03_domain>closeDomain()
+wls:/offline>createDomain('D:\do3_domain.jar','C:\Oracle\Middleware\user_projects\domains\d05_domain','weblogic','Password123')
+wls:/offline>readDomain('C:\Oracle\Middleware\user_projects\domains\d05_domain')
+wls:/offline/d05_domain>ls()   
+
+==================================================================================================================
+pass photosize process
+
+ Crop
+ width 1.5 in  Height 2 in Resolution 200
+
+ stroke
+ black  1
+ 
+ Define Pattern
+  123
+  
+  File 
+  New
+  width     1200  pixels
+  Height     800  pixels
+  Resolution 200  pixels/inch
+  
+  Fill
+  
+   
+ 
+ 
+
+
+
+
+==================================================================================================================
+
+user_projects/domains/dWeb_domain>java -Dweblogic.management.username=weblogic -Dweblogic.management.password=weblogic123 -Dweblogic.Domain=dWeb_domain -Dweblogic.Name=base_domain -Dweblogic.ListenPort=9090 -Dweblogic.management.GenerateDefaultConfig=true weblogic.Server
+
+
+
+SHEEL Scripting path
+
+https://www.youtube.com/watch?v=Y5mnE64WEDA&list=PL7B7FA4E693D8E790&index=2
+
+
+ first line sha-bang-line
+#!/path/interpreter
+ 
+#!bin/bash
+#!bin/ksh
+#!usr/bin/perl
+
+
+
+wlst alias
+
+java/jdk/bin
+oracle/middleware/wlserver/server/lib/weblogic.jar
+
+
+export JAVA_HOME=java/jdk
+export PATH=$PATH:$JAVA_HOME/bin
+export WL_HOME=oracle/middleware/wlserver
+export CLASSPATH=$WL_HOME/server/lib/weblogic.jar
+
+alias wlst="java weblogic.WLST"
+=====================================================================================================================
+
+https://www.youtube.com/watch?v=IRZxBZ-uiXM
+
+
+out log rotation
+
+
+#!/bin/bash
+#Script for rotating weblogic server out log files
+array=( /u01/SOA_QAT/logs/domain_SOA_QAT01/AdminServer/AdminServer.out /u01/SOA_QAT/logs/domain_SOA_QAT01/server_bam_QAT01/server_bam_QAT01.out /u01/SOA_QAT/logs/domain_SOA_QAT01/server_bam_QAT02/server_bam_QAT02.out /u01/SOA_QAT/logs/domain_SOA_QAT01/server_soa_QAT01/server_soa_QAT01.out /u01/SOA_QAT/logs/domain_SOA_QAT01/server_soa_QAT02/server_soa_QAT02.out /u01/SOA_QAT/logs/domain_SOA_QAT01/server_soa_QAT03/server_soa_QAT03.out /u01/SOA_QAT/logs/domain_SOA_QAT01/server_soa_QAT04/server_soa_QAT04.out /u01/SOA_QAT/logs/domain_SOA_QAT01/server_osr_QAT01/server_osr_QAT01.out /u01/SOA_QAT/logs/domain_SOA_QAT01/server_osr_QAT02/server_osr_QAT02.out /u01/SOA_QAT/logs/domain_SOA_QAT01/server_wsm_QAT01/server_wsm_QAT01.out /u01/SOA_QAT/logs/domain_SOA_QAT01/server_wsm_QAT02/server_wsm_QAT02.out )
+
+for logfile in "${array[@]}"
+do
+  MAXSIZE=10000000
+# MAXSIZE=1000
+
+ LOGFILE_SIZE=$(ls -l $logfile | tr -s " " | cut -d" " -f5)
+ if [ "$LOGFILE_SIZE" -ge "$MAXSIZE" ];
+ then
+ #timestamp=`date +%Y%m%d`
+ timestamp=`date +%Y%m%d_%T`
+ newlogfile=$logfile.$timestamp
+ cp $logfile $newlogfile
+ cat /dev/null > $logfile
+ #gzip -f -9 $newlogfile
+ fi
+ echo "$logfile is below max threshold" > /dev/null 2>&1
+
+done
+#echo "files older than 15 days deleted..."
+find "/u01/SOA_QAT/logs/domain_SOA_QAT01/AdminServer/AdminServer.out" -not -name '*.out' -name '*.out*' -type f -mtime +7 | xargs rm -f
+find "/u01/SOA_QAT/logs/domain_SOA_QAT01/server_bam_QAT01/server_bam_QAT01.out" -not -name '*.out' -name '*.out*' -type f -mtime +7 | xargs rm -f
+find "/u01/SOA_QAT/logs/domain_SOA_QAT01/server_bam_QAT02/server_bam_QAT02.out" -not -name '*.out' -name '*.out*' -type f -mtime +7 | xargs rm -f
+find "/u01/SOA_QAT/logs/domain_SOA_QAT01/server_soa_QAT01/server_soa_QAT01.out" -not -name '*.out' -name '*.out*' -type f -mtime +7 | xargs rm -f
+find "/u01/SOA_QAT/logs/domain_SOA_QAT01/server_soa_QAT02/server_soa_QAT02.out" -not -name '*.out' -name '*.out*' -type f -mtime +7 | xargs rm -f
+find "/u01/SOA_QAT/logs/domain_SOA_QAT01/server_soa_QAT03/server_soa_QAT03.out" -not -name '*.out' -name '*.out*' -type f -mtime +7 | xargs rm -f
+find "/u01/SOA_QAT/logs/domain_SOA_QAT01/server_soa_QAT04/server_soa_QAT04.out" -not -name '*.out' -name '*.out*' -type f -mtime +7 | xargs rm -f
+find "/u01/SOA_QAT/logs/domain_SOA_QAT01/server_osr_QAT01/server_osr_QAT01.out" -not -name '*.out' -name '*.out*' -type f -mtime +7 | xargs rm -f
+find "/u01/SOA_QAT/logs/domain_SOA_QAT01/server_osr_QAT02/server_osr_QAT02.out" -not -name '*.out' -name '*.out*' -type f -mtime +7 | xargs rm -f
+find "/u01/SOA_QAT/logs/domain_SOA_QAT01/server_wsm_QAT01/server_wsm_QAT01.out" -not -name '*.out' -name '*.out*' -type f -mtime +7 | xargs rm -f
+find "/u01/SOA_QAT/logs/domain_SOA_QAT01/server_wsm_QAT02/server_wsm_QAT02.out" -not -name '*.out' -name '*.out*' -type f -mtime +7 | xargs rm -f
+#find "/u01/SOA_DEV/logs/domain_SOA_DEV02/server_soa_DEV01/." -name "*.out.*" -type f -mtime +0 -exec mv "{}" /u01/SOA_DEV/logs/domain_SOA_DEV02/server_soa_DEV01/movelogs/. \; > /dev/null 2>&1
+
+
+
+
+-------------------------------
+Serverhealthcheck.py
+--------------------------------
+username = 'weblogic'
+password = 'SfrS0@1$'
+URL='t3://10.24.240.34:7101'
+connect(username,password,URL)
+domainRuntime()
+cd('ServerRuntimes')
+servers=domainRuntimeService.getServerRuntimes()
+for server in servers:
+    serverName=server.getName();
+    print '#### Server State    ####', server.getState()
+    print '#### Server ListnAdd ####', server.getListenAddress()
+    print '#### Server ListnPort####', server.getListenPort()
+    print '#### Server Healt State ####', server.getHealthState()
+
+
+	
+	
+	
+	Servers_helath status	
+	
+	
+	
+
+--------------------------------
+ServerHealth.sh
+---------------------------------
+export SCRIPT_LOC=/home/soawls/Servers_Health_Status
+echo "Location Found"
+#cd /u01/SOA_PRD/domains/ela1cn16/domain_SOA_PRD01/bin
+cd /u01/SOA_QAT/domains/elb1cn15/domain_SOA_QAT01/bin
+echo "Path Found"
+
+. ./setDomainEnv.sh
+echo "Path set"
+pwd
+java weblogic.WLST /home/soawls/Servers_Health_Status/Serverhealthcheck.py > /home/soawls/Servers_Health_Status/Servers_Health1.txt
+echo "Script run and log updated"
+
+cd /home/soawls/Servers_Health_Status
+echo "Script path Found"
+
+
+cat Servers_Health1.txt|grep -e "RUNNING" |wc -l > Server_Health_status_final1.csv
+echo "final log updated"
+
+
+# okay search for errors in file
+error_log=$(grep -c -i "4" /home/soawls/Servers_Health_Status/Server_Health_status_final1.csv)
+echo "error_log"
+# error found or not?
+if [ "$error_log" -eq 0 ]
+then    # yes error(s) found, let send an email
+       echo "All servers are Running Fine"
+else    # naa, everything looks okay
+        echo "Servers are not Running"
+        #mailx -s "------------------ Servers are Running Fine---------------" venkata.palakeela@tieto.com < /home/soaaia/scripts/Server_Health_status_final1.csv
+       mailx -s "SOA SERVERS HEALTH ALERT -- QAT ENVIRONMENT-----:::Please check servers health status || some of the servers are not running" venkat.palakeela@lntinfotech.com,SFRFusionAdmin@statoilfuelretail.com < /home/soawls/Servers_Health_Status/contacts1.txt
+
+     #mailx -s "ALERT::: SOA SERVERS HEALTH STATUS  -- QAT ENVIRONMENT :::" venkat.palakeela@lntinfotech.com < /home/soawls/Servers_Health_Status/contacts1.txt
+
+fi
+echo "mail sent"
+
+
+
+=================================================================================================================
+
+java weblogic.Admin -adminurl localhost:7021 -username weblogic -password
+Password123 invoke -mbean Security:Name=myrealmDefaultAuthenticator 
+-method createUser my-user1 mypassword "my user"
+
+=================================================================================================================
+
+
+
+root certificate
+
+1) A root certificate is certificate/digital certificate & self-signed certificate 
+
+2) Issued by CA's
+
+3) It has the "CA" flag set[key,key size,Algorithm,validity], and is in the root store for your computer and/or web browser
+ 
+4) It is publishing authority for any browsers/servers/computers.
+ 
+5) Generally these cert's are valid for a longer duration/period.
+
+Intermediates certs  
+ 
+  Intermediates certs are usually a shorter life/duration/period and chain to the root of the certification authority. 
+  
+  An intermediate certificate has the "CA" flag set and is signed by another certificate that has the "CA" flag set (you can have multiple levels of indirection, but to be valid, it must be signed by a valid CA or by a root CA)  
+
+CA
+
+The CA you can say acts as a manufacturer, where designs and plans are created and the CA can act as a factory creating models based on designs by the manufacturer for eventual sale provisioning to end users  
+  
+
+
+
+dbping utils
+
+  $ java utils.t3dbping          // command
+       t3://bigbox:7001          // WebLogic URL
+       scott tiger               // user password
+       DEMO20                    // DB
+       weblogic.jdbc.oci.Driver  // driver class
+       jdbc:weblogic:oracle      // driver URL
+	   
+	   
+	   
+What information will be available in “web.xml” file?
+
+The web.xml file is a deployment descriptor that is used to configure the following:
+Servlets and JSP registration 
+Servlet initialization parameters 
+JSP tag libraries 
+MIME type mappings 
+Welcome file list 
+Error pages 
+Security constraints and roles 
+Resources 
+EJB references
+
+
+What information will be available in “weblogic.xml” file?
+
+Using weblogic.xml, you can configure the following:
+The application’s root context path 
+Application logging 
+Security role mappings 
+Advanced session settings 
+Session clustering 
+References to shared libraries 
+References to server resources (data sources, EJBs, and so on) 
+Work managers and threading 
+Virtual directories 
+JSP compiler options	   
+	   
+	   
+C:\Oracle\Middleware\user_projects\domains\soa_domain_PVT\bin>java utils.dbping DB2B xe Password123 localhost:7021/XE	   
+
+
+
+
+weblogic upgrade process (i.e weblogic10.3.5 to weblogic 10.3.6)
+
+ Path
+  https://santoshbidw.wordpress.com/2015/05/03/weblogic-server-10-3-6-0-upgrade-installation-steps/
+  
+  
+  Prerequisites 
+  
+   1) Shutdown WebLogic Server and the Oracle Business Intelligence services.
+   2)Download the Patch – p13529623_1036_Generic.zip from Oracle Support site.
+   3)Check the Java version, for WebLogic 10.3.5 installations you need JDK6, but you can also use it for WebLogic10.3.6   	installations.
+   4)Do not use JDK7 for an Oracle BI Apps 11.1.1.7.0 installation.
+   
+   Navigate to the below folder path.
+
+D:\java\jdk\jre\bin>java –jar C:\Downloadswls\1036_upgrade_generic.jar
+
+
+====================================================================================
+
+/Farm_doamin_PCS_QAT01/domain_PCS_QAT01/server_sol_QAT01
+/Farm_doamin_PCS_QAT01/domain_PCS_QAT01/server_AdminServer
+
+Oracle_home
+
+/u01/app/oracle/mw_pcsqat01/wlserver_10.3
+
+machine
+
+elb1cn13.statoilfuelretail.com
+elb1cn13.statoilfuelretail.com
+elb1cn13.statoilfuelretail.com
+elb1cn13.statoilfuelretail.com
+
+
+C\:\\Oracle\\Middleware\\wlserver_10.3\\common\\nodemanager\\nodemanager.domains
+C:\Oracle\Middleware\wlserver_10.3\common\nodemanager\nodemanager.domains
+
+
+==============================================================================================================================
+
+wls:/offline> connect('weblogic','Password123','t3://localhost:7021')
+Connecting to t3://localhost:7021 with userid weblogic ...
+Successfully connected to Admin Server 'AdminServer' that belongs to domain 'soa_domain_PVT'.
+
+
+wls:/soa_domain_PVT/serverConfig> nmEnroll('C:/Oracle/Middleware/wlserver_10.3/common/nodemanager')
+Enrolling this machine with the domain directory at C:/Oracle/Middleware/wlserver_10.3/common/nodemanager ...
+Successfully enrolled this machine with the domain directory at C:\Oracle\Middleware\wlserver_10.3\common\nodemanager.rssd3xe
+
+
+
+Download videos path
+
+https://www.4kdownload.com/products/product-videodownloader
+
+
+
+Chandra shekhar Reddy
+
+PATH
+
+ https://www.youtube.com/watch?v=Ayyo1-h4ZQs
+ 
+ 
+ 
+ https://www.youtube.com/user/2035chandu/videos
+ 
+ 
+ 
+ =============================================================================================================================
+ 
+ 
+ 
+ Email Configuration for em/sbconsole(osb)
+ 
+ 
+Step 1 : Import certificates from gmail and add it to your server trust store
+Step 2 : Configure email driver properties
+Step 3 : Enable notification mode
+Step 4 : Testing the configuration
+
+
+Process 
+
+ Step 1:
+ 
+  D:\opt\softwares\Email\openssl-0.9.8h-1-bin\bin>openssl s_client -connect smtp.gmail.com:465
+  
+   .           save the certificate.txt (some location Like "D:\opt\softwares\Email\certificate.txt")
+  
+   .           Move to JAVA_HOME i.e. D:\opt\softwares\java\jdk\bin
+  
+  D:\opt\softwares\java\jdk\bin>keytool -import -alias smtp.gmail.com -keystore "C:\Oracle\Middleware\wlserver_10.3\server\lib\DemoTrust.jks" -file "D:\opt\softwares\Email\certificate.txt"
+  Enter Keystore Password:DemoTrustKeyStorePassPhrase  (Default Pwd for keystore)
+  
+  
+  ""  Certificate was added to keystore  ""
+  
+  
+  some grep process for keystore
+   
+    D:\opt\softwares\java\jdk\bin>keytool -list -v -keystore C:\Oracle\Middleware\wlserver_10.3\server\lib\DemoTrust.jks |  grep "Valid from:"
+	
+	D:\opt\softwares\java\jdk\bin>keytool -list -v -keystore C:\Oracle\Middleware\wlserver_10.3\server\lib\DemoTrust.jks |  grep "Owner:"
+	
+	D:\opt\softwares\java\jdk\bin>keytool -list -v -keystore C:\Oracle\Middleware\wlserver_10.3\server\lib\DemoTrust.jks |  grep "Isser:"
+  
+  
+  
+  
+  
+ Wi-fi methods....
+
+
+ IPv4          192.168.1.167
+subnet mask    255.255.255.0
+Default Getway 192.168.1.1
+
+preferred DNS Server  : 214.218.245.1
+Alternative DNS Server: 214.218.245.123
+ 
+ ===========================================================================================================================
+ soa-infra down
+ 
+ http://inside-bpm-and-soa.blogspot.in/2012/03/undeployment-of-composites-when-soa.html
+ 
+ ======================================================================
+ 
+ 
+ cmd kill process
+ 
+ TNSLSNR.EXE
+
+netstat -ano | find "8080"
+Tasklist
+Taskkill /PID 1156 /F
+
+
+jenkins console details
+
+
+username : soaadmin
+password : 96765632522onE	
+
+==============================================================================
+SOA - video path
+
+http://k21academy.com/webinar-soa-admin-replay
+
+==============================================================================
+
+
+Musicxray -- songs
+Path
+https://www.youtube.com/user/Super2moms/videos
+
+
+Integration OHS with Weblogic with mod_wl_ohs
+
+D:\opt\Oracle\Middleware\Oracle_WT1\instances\instance1\config\OHS\ohs1
+
+
+
+
+
+venkata.palakeela@tieto.com
+V9703594317e
+
+
+==============================================================================
+
+soa-infra down
+
+Undeploying SOA Composite while soa-infra is down in Oracle SOA Suite 11g
+
+http://www.albinsblog.com/2012/07/undeploying-soa-composite-while-soa.html#.WF_os1V97IU
+
+==============================================================================
+
+
+
+
+weblogic installation
+
+1) Download the Java(jdk1.7) and weblogic 10.3.6 and move into respective server using putty or scp command
+2) install java 
+3) Run the weblogic jar using below command
+   D:\java\jdk\bin>java -jar weblogic1036.jar
+   
+weblogic upgrade process (i.e weblogic10.3.5 to weblogic 10.3.6)
+
+ Path
+  https://santoshbidw.wordpress.com/2015/05/03/weblogic-server-10-3-6-0-upgrade-installation-steps/
+  
+  
+  Prerequisites 
+  
+   1) Shutdown WebLogic Server and the Oracle Business Intelligence services.
+   2)Download the Patch – p13529623_1036_Generic.zip from Oracle Support site.
+   3)Check the Java version, for WebLogic 10.3.5 installations you need JDK6, but you can also use it for WebLogic10.3.6   	installations.
+   4)Do not use JDK7 for an Oracle BI Apps 11.1.1.7.0 installation.
+   
+   Navigate to the below folder path.
+
+D:\java\jdk\jre\bin>java –jar C:\Downloadswls\1036_upgrade_generic.jar
+
+
+RCU installation 
+
+Install RCU.
+
+   1. extract ofm_rcu_win_11.1.1.6.0_disk1_1of1 to ofm_rcu_win_11.1.1.6.0_disk1_1of1 folder
+   2. goto ofm_rcu_win_11.1.1.6.0_disk1_1of1 -> rcuHome-> BIN
+   3. right click on rcu.bat select run as administrator.
+   4. click next,next.
+   5. Provide following details.
+  
+      1. HostName : localhost
+      2. port : 1521
+      3. Service Name : xe
+      4. username :  sys
+      5. password : manager
+   6. click next, ignore the prompt and press ok.
+   7. In the next screen select  Soa and BPM infrastructure check box. press next and ok.
+   8. provide the db password as manager.next,next  press ok for the prompt.
+   9. press Create.
+   10.close.
+
+5. After installing RCU execute the below scripts one by one in sql propmt.
+
+                 conn sys/manager as sysdba
+		  Grant select on sys.dba_pending_transactions to dev_soainfra;
+		 Grant force any transaction to dev_soainfra;
+		 shutdown;
+		 startup;
+
+6. Install weblogic Server
+   
+  1. double click on wls1036_generic.jar
+  2. which will take some time to load wait untill it loads.
+  3. Create  FMW folder in cdrive and provide the path as follows C:\FMW\Oracle\Middleware and press next
+  4. Uncheck the checkbox available. press yes for any prompts.
+  5. Check   I wish to Un Informed... and press continue, next.
+  6. Browser your JDK location it seems to be  C:\Program Files\Java\jdk1.6.0_23
+  7. press next,next.. Uncheck runquick start   and    press done.
+
+7. Install Soa Server
+   1. extract ofm_soa_generic_11.1.1.6.0_disk1_1of2 into ofm_soa_generic_11.1.1.6.0_disk1_1of2
+   2. extract ofm_soa_generic_11.1.1.6.0_disk1_2of2 into ofm_soa_generic_11.1.1.6.0_disk1_2of2
+   3. goto folder and copy  disk4 and disk5  into  ofm_soa_generic_11.1.1.6.0_disk1_1of2 
+   4. then goto disk1->install->win64  and double click on setup.
+   5. Inthe next black screen provide the jdk path it seems to be C:\Program Files\Java\jdk1.6.0_23 press enter.
+   6. One wizard will be loaded, press next,  and select  "skipsoftware updates" and next.
+   7. press next.....install.
+   
+   
+   
+   
+   scp commands path
+   
+   https://www.garron.me/en/articles/scp.htmlhttps://www.garron.me/en/articles/scp.html
+   
+   
+   weblogicAdmins.com path:
+    https://www.facebook.com/weblogicadmins/
+	
+	=====================================================================================================
+	Rubik's Cube  path:
+	
+	https://www.youtube.com/watch?v=rmnSpUgOvyI
+	=====================================================================================================
+	
+	
+	
+	OHS silent mode installtion
+	
+	https://oamidam.wordpress.com/2010/12/17/stand-alone-ohs-11g-silent-installation/
+	
+	OHS issue 
+	
+	https://beerfromlier.wordpress.com/2008/10/20/opmn-connection-refused-as-within-vm/
+	
+	
+	OHS Major Issue's
+	
+	https://docs.oracle.com/cd/B14099_19/core.1012/b13996/appendix.htm
+	
+	
+	OHS details
+	
+	http://blog.itpub.net/17252115/viewspace-1217919/
+	
+	
+	deployment-process
+	
+	https://www.youtube.com/watch?v=-Nm-sGB-qrE&list=PLLVONfEdBYLGAYnUM00CncoHL7tqY62ws
+	
+	
+	
+	OHS-wallet
+		http://www.ateam-oracle.com/setting-up-https-on-ohs-for-fusion-apps/\'
+
+ OHS wallet Process
+ 
+  1)D:\Oracle\middleware\oracle_common\bin>orapki wallet create -wallet D:/Oracle/middleware/Oracle_WT8/instances/instance8/config/OHS/ohs8/keystores/wallet -auto_login
+  
+  
+  2)D:\Oracle\middleware\oracle_common\bin>orapki wallet add –wallet D:/Oracle/middleware/Oracle_WT8/instances/instance8/config/OHS/ohs8/keystores/wallet -dn 'CN=statoilfuelretail.com, OU=ITDepartment, O=sfr, L=sweden, ST=stockholm, C=sweden' -keysize 2048 -self_signed -validity 365 -pwd welcome1
+  
+  ./orapki wallet add –wallet D:/Oracle/middleware/Oracle_WT8/instances/instance8/config/OHS/ohs8/keystores/wallet -dn 'CN=CAILAPP-62.cal.com, OU=ISS, O=cal, L=Noida, ST=UP, C=IN' -keysize 2048 -self_signed -validity 365 -pwd welcome1
+  
+    ./orapki wallet add –wallet D:/Oracle/middleware/Oracle_WT8/instances/instance8/config/OHS/ohs8/keystores/walletnew -dn 'CN=ICICIPrudentialLife.com, OU=IT, O=ICICIPrudential Life Insurance Pvt Limited, L=Malad, ST=Maharashtra, C=IN' -keysize 2048 -self_signed -validity 365 -pwd welcome1
+	
+	orapki wallet add -wallet D:/Oracle/middleware/Oracle_WT8/instances/instance8/config/OHS/ohs8/keystores/walletnew -dn “CN=www.abc.com,OU=IT,O=abc,L=Mumbai,ST=Maharashtra,C=IN” -keysize 2048 -pwd mypassword
+  
+  orapki wallet add -wallet D:/Oracle/middleware/Oracle_WT8/instances/instance8/config/OHS/ohs8/keystores/walletnew -dn "CN=ICICIPrudentialLife.com,OU=IT,O=ICICIPrudential Life Insurance Pvt Limited,L=Mumbai,ST=Maharashtra,C=IN" -keysize 2048 -pwd P@ssword123
+    
+===========================================================================================================================	
+	woring
+	
+create-self-signed-ssl-certificates:	
+	
+ D:\Oracle\middleware\oracle_common\bin>orapki wallet add -wallet D:\Oracle\middleware\Oracle_WT8\instances\instance8\config\OHS\ohs8\keystores\wallet -pwd P@ssword123 -dn "CN='www.ICICIPrudential.com',OU=IT,O=ICICIPrudential Life Insurance Pvt Limited,L=Mumbai,ST=Maharashtra,C=IN" -keysize 1024 -self_signed -validity 365
+Oracle PKI Tool : Version 11.1.1.9.0
+Copyright (c) 2004, 2015, Oracle and/or its affiliates. All rights reserved.
+
+ 
+========================================================================================================================== 
+ D:\Oracle\middleware\oracle_common\bin>orapki wallet add -wallet D:\Oracle\middleware\Oracle_WT8\instances\instance8\config\OHS\ohs8\keystores\wallet -pwd P@ssword123 -dn "CN='www.ICICIPrudential.com',OU=IT,O=ICICIPrudential Life Insurance Pvt Limited,L=Mumbai,ST=Maharashtra,C=IN" -keysize 1024 -self_signed -validity 365
+Oracle PKI Tool : Version 11.1.1.9.0
+Copyright (c) 2004, 2015, Oracle and/or its affiliates. All rights reserved.
+
+D:\Oracle\middleware\oracle_common\bin>orapki wallet display -wallet D:\Oracle\middleware\Oracle_WT8\instances\instance8\config\OHS\ohs8\keystores\wallet -pwd P@ssword123
+Oracle PKI Tool : Version 11.1.1.9.0
+Copyright (c) 2004, 2015, Oracle and/or its affiliates. All rights reserved.
+
+Requested Certificates:
+User Certificates:
+Subject:        CN='www.ICICIPrudential.com',OU=IT,O=ICICIPrudential Life Insurance Pvt Limited,L=Mumbai,ST=Maharashtra,C=IN
+Trusted Certificates:
+Subject:        CN='www.ICICIPrudential.com',OU=IT,O=ICICIPrudential Life Insurance Pvt Limited,L=Mumbai,ST=Maharashtra,C=IN
+D:\Oracle\middleware\oracle_common\bin>history
+'history' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Oracle\middleware\oracle_common\bin>
+
+          =========================================================================================
+Working Process 2
+
+	D:\Oracle\middleware\oracle_common\bin>orapki wallet create -wallet D:\Oracle\middleware\Oracle_WT9\instances\instance9\config\OHS\ohs999\keystores\wallet2 -pwd P@ssword123 -auto_login
+	Oracle PKI Tool : Version 11.1.1.9.0
+	Copyright (c) 2004, 2015, Oracle and/or its affiliates. All rights reserved.
+
+	D:\Oracle\middleware\oracle_common\bin>
+
+	
+	D:\Oracle\middleware\oracle_common\bin>orapki wallet add -wallet D:\Oracle\middleware\Oracle_WT9\instances\instance9\config\OHS\ohs999\keystores\wallet2 -pwd P@ssword123 -dn "CN='www.ICICICLifeMalad.com
+	',OU=IT,O=ICICIPrudential Life Insurance Pvt Limited,L=Mumbai,ST=Maharashtra,C=IN" -keysize 1024 -self_signed -validity 365
+	Oracle PKI Tool : Version 11.1.1.9.0
+	Copyright (c) 2004, 2015, Oracle and/or its affiliates. All rights reserved.
+
+	D:\Oracle\middleware\oracle_common\bin>orapki  wallet display -wallet D:\Oracle\middleware\Oracle_WT9\instances\instance9\config\OHS\ohs999\keystores\wallet1 -pwd P@ssword123
+	Oracle PKI Tool : Version 11.1.1.9.0
+	Copyright (c) 2004, 2015, Oracle and/or its affiliates. All rights reserved.
+
+	Requested Certificates:
+	User Certificates:
+	Subject:        CN='www.BuyICICICLife.com',OU=IT,O=ICICIPrudential Life Insurance Pvt Limited,L=Mumbai,ST=Maharashtra,C=IN
+	Trusted Certificates:
+	Subject:        CN='www.BuyICICICLife.com',OU=IT,O=ICICIPrudential Life Insurance Pvt Limited,L=Mumbai,ST=Maharashtra,C=IN
+	D:\Oracle\middleware\oracle_common\bin>
+
+========================================================================================================================== 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PATH: wallet with identity-keystore.jks
+
+https://oracle-base.com/articles/linux/create-self-signed-ssl-certificates 
+===========================================================================================================================
+	
+	
+	D:\Oracle\middleware\oracle_common\bin>orapki wallet add -wallet D:\Oracle\middleware\Oracle_WT8\instances\instance8\config\OHS\ohs8\keystores\wallet -dn "CN=www.ICICIPrudential.com,OU=IT,O=ICICIPrude
+ntial Life Insurance Pvt Limited,L=Mumbai,ST=Maharashtra,C=IN" -keysize 2048 -pwd P@ssword123
+  
+  3)D:\Oracle\middleware\oracle_common\bin>orapki wallet display -wallet D:/Oracle/middleware/Oracle_WT8/instances/instance8/config/OHS/ohs8/keystores/wallet 
+  
+  4) a) Open ssl.conf file, Do some change's
+            i)    Listen port 7777 to 443
+		    ii)   <VirttualHost *:80>  
+		    iii)  Add wallet file Location SSL Wallet "Location"  in ssl.conf file
+  
+     b) Include  "ssl.conf" file in the "httpd.conf"
+        Include "path of ssl.conf/ssl.conf"
+	
+  5) Take restart of OHS Componet.	
+  
+  OHS Process - Self Signed certificate Process
+  
+  
+  1)D:\Oracle\middleware\oracle_common\bin>orapki wallet create -wallet D:\Oracle\middleware\Oracle_WT9\instances\instance9\config\OHS\ohs999\keystores\wallet1 -pwd P@ssword123 -auto_login
+  
+  2)D:\Oracle\middleware\oracle_common\bin>orapki wallet add –wallet D:\Oracle\middleware\Oracle_WT9\instances\instance9\config\OHS\ohs999\keystores\wallet1 -pwd P@ssword123 -dn "CN='www.BuyICICILife.com',OU=IT,O=ICICIPrudential Life Insurance Pvt Limited,L=Mumbai,ST=Maharashtra,C=IN" -keysize 2048 -self_signed -validity 365
+  
+  3)orapki wallet display -wallet D:\Oracle\middleware\Oracle_WT9\instances\instance9\config\OHS\ohs999\keystores\wallet1 -pwd P@sswd123
+  
+  
+  
+ 
+
+working
+
+
+D:\Oracle\middleware\oracle_common\bin>orapki wallet add -wallet D:\Oracle\middleware\Oracle_WT8\instances\instance8\config\OHS\ohs8\keystores\wallet -pwd P@ssword123 -dn "CN='www.ICICIPrudential.com',OU=IT,O=ICICIPrudential Life Insurance Pvt Limited,L=Mumbai,ST=Maharashtra,C=IN" -keysize 1024 -self_signed -validity 365
+O
+ 
+  
+  
+  
+  
+    D:\Oracle\middleware\Oracle_WT9\instances\instance9\config\OHS\ohs999\keystores\wallet1
+  
+  
+  
+LNT webmail
+
+https://webmail.lntinfotech.com/owa/#path=/mail
+
+NMUMARL\10635296
+
+
+RED HAT Missing issue
+
+http://blog.fertileideas.com/2013/10/how-to-install-oracle-linux-using-usb.html
+
+
+DevOpps
+https://apexapps.oracle.com/pls/apex/f?p=44785:141:101643239948108::::P141_PAGE_ID,P141_SECTION_ID:484,3533
+
+
+
+5383951
+
+
+All in one
+
+http://www.oracle.com/technetwork/developer-tools/apex/learnmore/apex-example-deployment-wp-2214343.pdf
+
+
+
+
+hindi best  
+
+https://www.youtube.com/watch?v=DKyPSWX0OJk
+
+https://www.youtube.com/watch?v=uQ3CSDBezYo&list=PLB20089E7491E7547&index=25
+
+
+venkata.palakeela@tieto.com
+V9703594317e
+
+======================================================================================================================
+GitHub Process
+
+Create GitHub Account
+
+Login into https://github.com  and Create Repository with some name Like "krishnsoaadmi"
+
+Create the folder in any location(PC) with Repository Name "krishnasoaadmi"
+
+/d/opt/git/Git_install/krishnasoaadmi
+
+Go inside the Folder "krishnasoadmi"
+
+git config --global user.name "krishnasoaadmi"
+git config --global user.email krishnasoaadmi@gmail.com
+
+git Clone Process 
+
+git clone (url)
+
+git clone https://github.com/krishnasoa/weblogic.git
+
+Add Files
+
+git add test.txt
+git status
+
+Commit
+
+git commit -m "first commit" test.txt
+git push -u origin master     transfor the file into master repository
+
+UserName : krishnasoaadmi@gmail.com
+Password : 96765632522onE
+
+
+=================================================
+Modify file 1st Time Process
+
+ first modify the file "test.txt"
+ 
+ git status
+ git commit -m "Modified file" test.txt
+ git push -u origin master 
+ 
+Modify file 2nd Time Process
+
+ first modify the file "test.txt"
+ 
+ git status
+ git commit -m "Modified file" test.txt
+ git push -u origin master 
+ =================================================
+===================================================================================================
+
+
+
